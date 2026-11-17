@@ -2,7 +2,7 @@
   "items": [
     {
       "pekan": "2026-W47",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-U1",
@@ -23,7 +23,7 @@
     },
     {
       "pekan": "2026-W47",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S1",
@@ -44,7 +44,7 @@
     },
     {
       "pekan": "2026-W47",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S2",
@@ -65,7 +65,7 @@
     },
     {
       "pekan": "2026-W47",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S3",
@@ -86,7 +86,7 @@
     },
     {
       "pekan": "2026-W47",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S4",
