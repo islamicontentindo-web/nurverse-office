@@ -30,17 +30,16 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "4 video menunggu persetujuanmu.",
+    "ringkasan": "3 video menunggu persetujuanmu.",
     "menunggu": [
       "Setujui: Lelah Bersabar? Ini yang Sedang Disiapkan",
-      "Setujui: Menahan Lisan Saat Musibah Mendadak #Shorts",
       "Setujui: Lelah Berharap pada Manusia #Shorts",
       "Setujui: Bahaya Membandingkan Ujian Hidup #Shorts"
     ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "4 video"
+        "nilai": "3 video"
       }
     ]
   },

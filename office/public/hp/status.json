@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-17T07:25:57.136Z",
+  "diperbarui": "2026-11-17T07:41:15.334Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -30,8 +30,8 @@
       "id": "2026-W47-S2",
       "jenis": "short",
       "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts",
-      "status": "menunggu_persetujuan",
-      "label": "menunggu persetujuanmu",
+      "status": "terjadwal",
+      "label": "terjadwal",
       "slot": "2026-11-21T01:00:00.000Z",
       "ytId": "j8aZ7gNSyhM"
     },
@@ -55,6 +55,12 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-17T07:41:15.332Z",
+      "agen": "nadia",
+      "teks": "2026-W47-S2: setuju -> terjadwal (tayang 2026-11-21T01:00:00.000Z)",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-17T07:25:57.134Z",
       "agen": "nadia",
@@ -198,12 +204,6 @@
       "agen": "tick",
       "teks": "selesai dalam 137 detik",
       "tingkat": "info"
-    },
-    {
-      "t": "2026-11-17T02:16:17.912Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
     }
   ]
 }
