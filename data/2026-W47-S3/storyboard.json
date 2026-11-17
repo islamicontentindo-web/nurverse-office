@@ -1,0 +1,49 @@
+{
+  "id": "2026-W47-S3",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Lelah Berharap pada Manusia",
+  "thumb": "Sampai Kapan Berharap",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "judul": "",
+      "teks": [
+        "Sampai kapan menaruh harap",
+        "pada manusia yang fana?"
+      ],
+      "caption": true,
+      "narasi": "Berapa kali lagi kamu harus kecewa sebelum sadar tempat bersandar yang sebenarnya?"
+    },
+    {
+      "i": 1,
+      "tipe": "renungan",
+      "motif": "arabesk",
+      "judul": "",
+      "teks": [
+        "Kecewa adalah teguran halus",
+        "agar kamu kembali",
+        "bersandar pada-Nya"
+      ],
+      "caption": true,
+      "narasi": "Rasa kecewa yang kamu rasakan hari ini adalah teguran halus. Setiap kali kamu bersandar pada makhluk, hatimu akan rapuh. Namun saat kamu memilih bersabar hanya demi keridaan Tuhanmu, lelahmu langsung berubah menjadi ketenangan yang utuh."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "kubah",
+      "judul": "",
+      "teks": [
+        "Curahkan keluh kesahmu",
+        "hanya dalam sujud"
+      ],
+      "caption": true,
+      "narasi": "Tidak ada harapan yang berujung sia-sia jika kamu titipkan langsung ke langit. Malam ini, luangkan waktu untuk mencurahkan semua keluh kesahmu dalam sujud, daripada..."
+    }
+  ]
+}

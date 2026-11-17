@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-17T04:05:48.534Z",
+  "diperbarui": "2026-11-17T07:23:08.716Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -11,20 +11,20 @@
     {
       "id": "2026-W47-S4",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "lolos_dalil",
-      "label": "dalil lolos",
+      "judul": "Bahaya Membandingkan Ujian Hidup #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-23T05:30:00.000Z",
-      "ytId": null
+      "ytId": "MUdahR9mtw4"
     },
     {
       "id": "2026-W47-S3",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "lolos_dalil",
-      "label": "dalil lolos",
+      "judul": "Lelah Berharap pada Manusia #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-22T12:30:00.000Z",
-      "ytId": null
+      "ytId": "9SSJw7iSuGA"
     },
     {
       "id": "2026-W47-S2",
@@ -55,6 +55,42 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-17T07:23:08.709Z",
+      "agen": "nadia",
+      "teks": "2026-W47-S4 terunggah (menunggu_persetujuan), tayang 2026-11-23T05:30:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T07:22:18.943Z",
+      "agen": "dika",
+      "teks": "render 2026-W47-S4 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T07:22:05.706Z",
+      "agen": "nadia",
+      "teks": "2026-W47-S3 terunggah (menunggu_persetujuan), tayang 2026-11-22T12:30:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T07:21:18.795Z",
+      "agen": "dika",
+      "teks": "render 2026-W47-S3 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T07:21:04.556Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T04:05:48.534Z",
+      "agen": "tick",
+      "teks": "selesai dalam 521 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-17T04:05:48.527Z",
       "agen": "nadia",
@@ -167,12 +203,6 @@
       "t": "2026-11-17T02:14:11.429Z",
       "agen": "tara",
       "teks": "riset selesai: 6 outlier, 10 tren ID",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-17T02:14:00.636Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
       "tingkat": "info"
     }
   ]

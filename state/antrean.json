@@ -65,7 +65,7 @@
     },
     {
       "pekan": "2026-W47",
-      "status": "lolos_dalil",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S3",
@@ -79,11 +79,14 @@
           "ar-rad:22"
         ],
         "hadis": []
-      }
+      },
+      "detik": 34,
+      "ytId": "9SSJw7iSuGA",
+      "judul": "Lelah Berharap pada Manusia #Shorts"
     },
     {
       "pekan": "2026-W47",
-      "status": "lolos_dalil",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S4",
@@ -97,7 +100,10 @@
           "ibrahim:7"
         ],
         "hadis": []
-      }
+      },
+      "detik": 34,
+      "ytId": "MUdahR9mtw4",
+      "judul": "Bahaya Membandingkan Ujian Hidup #Shorts"
     }
   ]
 }

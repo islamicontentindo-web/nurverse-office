@@ -1,0 +1,49 @@
+{
+  "id": "2026-W47-S4",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Bahaya Membandingkan Ujian Hidup",
+  "thumb": "Ketenanganmu Sedang Dipertaruhkan",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Ketenangan batin lenyap",
+        "saat sibuk membandingkan",
+        "ujianmu dengan orang lain"
+      ],
+      "caption": true,
+      "narasi": "Ketenangan hatimu dipertaruhkan setiap kali kamu sibuk menghitung keberuntungan orang lain."
+    },
+    {
+      "i": 1,
+      "tipe": "renungan",
+      "motif": "arabesk",
+      "judul": "",
+      "teks": [
+        "Setiap jiwa punya badai",
+        "yang tak pernah kamu tahu"
+      ],
+      "caption": true,
+      "narasi": "Rumput tetangga selalu terlihat lebih hijau hanya karena kamu belum tahu badai apa yang mereka lewati. Membandingkan nasib tidak akan pernah menyelesaikan masalah, justru hanya menambah racun dengki dan membutakan rasa syukur di dalam dada."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Sebutkan tiga kebaikan",
+        "yang kamu syukuri hari ini"
+      ],
+      "caption": true,
+      "narasi": "Fokuslah menyadari nikmat yang hari ini masih tersisa di tanganmu, bukan yang ada di tangan orang. Mulai sekarang, sebutkan tiga kebaikan kecil yang kamu syukuri hari ini, agar..."
+    }
+  ]
+}

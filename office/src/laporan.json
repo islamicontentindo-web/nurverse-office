@@ -30,31 +30,33 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "3 video menunggu persetujuanmu.",
+    "ringkasan": "5 video menunggu persetujuanmu.",
     "menunggu": [
       "Setujui: Lelah Bersabar? Ini yang Sedang Disiapkan",
       "Setujui: Ujian Hidup Bukan Tanda Benci #Shorts",
-      "Setujui: Menahan Lisan Saat Musibah Mendadak #Shorts"
+      "Setujui: Menahan Lisan Saat Musibah Mendadak #Shorts",
+      "Setujui: Lelah Berharap pada Manusia #Shorts",
+      "Setujui: Bahaya Membandingkan Ujian Hidup #Shorts"
     ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "3 video"
+        "nilai": "5 video"
       }
     ]
   },
   "rafi": {
-    "ringkasan": "3 storyboard dibuat sesuai standar NURVERSE."
+    "ringkasan": "5 storyboard dibuat sesuai standar NURVERSE."
   },
   "salma": {
     "ringkasan": "Suara: id-ID-ArdiNeural. Ayat tidak dibacakan suara sintetis, hanya terjemahannya."
   },
   "dika": {
-    "ringkasan": "3 video sudah dirender.",
+    "ringkasan": "5 video sudah dirender.",
     "angka": [
       {
         "label": "Total render",
-        "nilai": "4 menit"
+        "nilai": "5 menit"
       }
     ]
   },
