@@ -1,0 +1,23 @@
+# Membangun kantor 3D + pemantau HP lalu memasangnya di GitHub Pages.
+name: situs
+on:
+  workflow_call:
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: false }
+jobs:
+  pasang:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.dep.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm, cache-dependency-path: office/package-lock.json }
+      - run: node src/laporan.mjs
+        env: { GITHUB_REPOSITORY: "${{ github.repository }}" }
+      - run: cd office && npm ci && npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: office/dist }
+      - id: dep
+        uses: actions/deploy-pages@v4

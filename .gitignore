@@ -1,0 +1,5 @@
+node_modules/
+tmp/
+.env
+office/node_modules/
+office/dist/

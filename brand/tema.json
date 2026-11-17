@@ -1,0 +1,5 @@
+{
+  "warna": { "malam": "#071a2b", "malam2": "#0c2c44", "emas": "#e3b341", "emasMuda": "#f4dc8e", "zamrud": "#18a58a", "gading": "#f6efdc", "redup": "#8fa9b8" },
+  "font": { "arab": "'Amiri','Noto Naskh Arabic','Scheherazade New',serif", "teks": "'Inter','Noto Sans','Segoe UI',sans-serif", "judul": "'Amiri','Noto Serif',serif" },
+  "motif": ["bintang", "arabesk", "cahaya", "bulan", "kubah", "gelombang"]
+}

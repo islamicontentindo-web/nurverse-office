@@ -1,0 +1,18 @@
+{
+  "name": "nurverse-office",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kantor karyawan AI 24 jam untuk channel YouTube islami NURVERSE (API gratis, dipantau lewat HP).",
+  "scripts": {
+    "tick": "node src/tick.mjs",
+    "demo": "MOCK=1 node src/tick.mjs --demo",
+    "test": "node scripts/test.mjs",
+    "auth": "node scripts/yt-auth.mjs",
+    "laporan": "node src/laporan.mjs",
+    "situs": "cd office && npm ci && npm run build"
+  },
+  "dependencies": {
+    "playwright-core": "^1.50.0"
+  }
+}

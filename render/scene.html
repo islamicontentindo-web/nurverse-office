@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="id"><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;height:100%;overflow:hidden;background:#071a2b}
+  #stage{position:relative;width:100vw;height:100vh;overflow:hidden}
+  canvas{position:absolute;inset:0;width:100%;height:100%}
+  #ui{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:7vmin;box-sizing:border-box}
+  .l{opacity:0;will-change:opacity,transform;text-shadow:0 .3vmin 1.6vmin #000a}
+  #wm{position:absolute;right:3.2vmin;top:2.6vmin;font:600 2.1vmin var(--teks);letter-spacing:.5vmin;color:var(--emas);opacity:.7}
+  #cap{position:absolute;left:6vmin;right:6vmin;bottom:7vmin;text-align:center;font:600 3.6vmin/1.3 var(--teks);color:var(--gading);text-shadow:0 .4vmin 1.6vmin #000c}
+  #cap b{color:var(--emasMuda);font-weight:700}
+</style></head>
+<body><div id="stage"><canvas id="c"></canvas><div id="ui"></div><div id="cap"></div><div id="wm">NURVERSE</div></div>
+<script>
+const TAU = Math.PI * 2;
+const ease = (x) => (x = Math.max(0, Math.min(1, x)), 1 - Math.pow(1 - x, 3));
+const rng = (a) => () => { a |= 0; a = (a + 0x6D2B79F5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
+let S, T, W, H, ctx, ui, cap, stars = [], els = [];
+
+function setup(opt) {
+  S = opt.scene; T = opt.tema; W = opt.w; H = opt.h; window.MODE = opt.mode || 'video';
+  const r = document.documentElement.style;
+  for (const [k, v] of Object.entries(T.warna)) r.setProperty('--' + k, v);
+  r.setProperty('--arab', T.font.arab); r.setProperty('--teks', T.font.teks); r.setProperty('--judul', T.font.judul);
+  const c = document.getElementById('c'); c.width = W; c.height = H; ctx = c.getContext('2d');
+  ui = document.getElementById('ui'); cap = document.getElementById('cap'); ui.innerHTML = ''; els = [];
+  const R = rng((S.i ?? 0) * 977 + 13);
+  stars = Array.from({ length: 70 }, () => ({ x: R(), y: R(), r: 0.6 + R() * 1.8, f: 0.4 + R() * 1.6, p: R() * TAU }));
+  build();
+}
+
+function mk(html, cls, css) { const d = document.createElement('div'); d.className = 'l ' + (cls || ''); d.innerHTML = html; if (css) d.style.cssText = css; ui.appendChild(d); els.push(d); return d; }
+const esc = (s) => String(s).replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+function fit(el, maxH, start, min = 2.2) { // kecilkan font (vmin) sampai tinggi muat; deterministik
+  let f = start; el.style.fontSize = f + 'vmin';
+  while (el.scrollHeight > maxH && f > min) { f -= 0.25; el.style.fontSize = f + 'vmin'; }
+}
+
+function build() {
+  const port = H > W, vm = Math.min(W, H) / 100;
+  if (window.MODE === 'thumb') {
+    const words = (S.thumb || S.judul || '').split(/\s+/).slice(0, 3);
+    words.forEach((w, k) => mk(esc(w), '', `font:800 ${port ? 15 : 17}vmin/1.02 var(--teks);color:${k === words.length - 1 ? 'var(--emasMuda)' : 'var(--gading)'};letter-spacing:.2vmin;text-shadow:0 .8vmin 2.4vmin #000b`));
+    return;
+  }
+  if (S.tipe === 'ayat' || S.tipe === 'hadis') {
+    const box = H * 0.46;
+    const a = mk(esc(S.arab || ''), '', `font-family:var(--arab);color:var(--emasMuda);line-height:1.75;direction:rtl;max-height:${box}px;overflow:hidden;width:92%`);
+    if (S.arab) fit(a, box, port ? 7.2 : 8.6, 2.6);
+    const t = mk(esc(S.arti || ''), '', `font:500 3vmin/1.4 var(--teks);color:var(--gading);margin-top:3vmin;width:${port ? 92 : 78}%;max-height:${H * 0.24}px;overflow:hidden`);
+    fit(t, H * 0.24, port ? 3.6 : 3.1, 1.9);
+    mk(esc(S.label || ''), '', 'font:600 2.7vmin var(--teks);color:var(--emas);margin-top:3vmin;letter-spacing:.3vmin');
+    return;
+  }
+  if (S.tipe === 'poin') {
+    if (S.judul) mk(esc(S.judul), '', `font:700 ${port ? 6.4 : 5.6}vmin/1.15 var(--judul);color:var(--emasMuda);margin-bottom:5vmin;width:92%`);
+    (S.teks || []).forEach((x) => mk(esc(x), '', `font:600 ${port ? 4.8 : 4.1}vmin/1.3 var(--teks);color:var(--gading);margin:1.6vmin 0;width:92%`));
+    return;
+  }
+  if (S.tipe === 'penutup') {
+    (S.teks || []).forEach((x) => mk(esc(x), '', `font:600 ${port ? 5.2 : 4.4}vmin/1.3 var(--teks);color:var(--gading);width:90%`));
+    mk('NURVERSE', '', `font:800 ${port ? 9 : 8}vmin var(--teks);letter-spacing:1.2vmin;color:var(--emas);margin-top:7vmin`);
+    return;
+  }
+  (S.teks || []).forEach((x) => mk(esc(x), '', `font:700 ${port ? 7.4 : 6.2}vmin/1.22 var(--judul);color:var(--gading);margin:1.4vmin 0;width:92%`));
+}
+
+/* ---------- motif ---------- */
+function sq(cx, cy, r, rot) { ctx.beginPath(); for (let k = 0; k < 4; k++) { const a = rot + (k * TAU) / 4 + TAU / 8; ctx[k ? 'lineTo' : 'moveTo'](cx + r * Math.cos(a), cy + r * Math.sin(a)); } ctx.closePath(); }
+function star8(cx, cy, r, rot) { sq(cx, cy, r, rot); ctx.stroke(); sq(cx, cy, r, rot + TAU / 8); ctx.stroke(); }
+const gold = (a) => `rgba(227,179,65,${a})`, teal = (a) => `rgba(24,165,138,${a})`;
+
+function motif(t, dur) {
+  const cx = W / 2, cy = H / 2, m = Math.min(W, H), m1 = Math.max(W, H);
+  ctx.lineWidth = Math.max(1.5, m / 420);
+  const k = S.motif;
+  if (k === 'bintang') {
+    for (let i = 0; i < 7; i++) { const p = ((t * 0.07 + i / 7) % 1); ctx.strokeStyle = gold(0.5 * (1 - p)); star8(cx, cy, m * (0.12 + p * 0.62), t * 0.12 * (i % 2 ? 1 : -1)); }
+    ctx.strokeStyle = gold(0.8); ctx.lineWidth *= 1.6; star8(cx, cy, m * 0.1, t * 0.3);
+  } else if (k === 'arabesk') {
+    const g = m * 0.22, ox = (t * m * 0.012) % g, oy = (t * m * 0.008) % g;
+    for (let y = -g; y < H + g; y += g) for (let x = -g; x < W + g; x += g) {
+      ctx.strokeStyle = ((Math.round(x / g) + Math.round(y / g)) & 1) ? gold(0.22) : teal(0.28);
+      star8(x + ox, y + oy, g * 0.46, 0); ctx.beginPath(); ctx.arc(x + ox + g / 2, y + oy + g / 2, g * 0.12, 0, TAU); ctx.stroke();
+    }
+  } else if (k === 'cahaya') {
+    const gx = cx, gy = H * 0.22, gr = ctx.createRadialGradient(gx, gy, 0, gx, gy, m1 * 0.7);
+    gr.addColorStop(0, 'rgba(244,220,142,0.30)'); gr.addColorStop(1, 'rgba(244,220,142,0)'); ctx.fillStyle = gr; ctx.fillRect(0, 0, W, H);
+    for (let i = 0; i < 14; i++) { const a = t * 0.04 + (i / 14) * TAU * 0.5 + Math.PI * 0.25; ctx.fillStyle = gold(0.045); ctx.beginPath(); ctx.moveTo(gx, gy); ctx.arc(gx, gy, m1 * 1.2, a, a + 0.09); ctx.closePath(); ctx.fill(); }
+    ctx.strokeStyle = gold(0.6); star8(gx, gy, m * 0.07, t * 0.2);
+  } else if (k === 'bulan') {
+    const r = m * 0.2, bx = cx + Math.sin(t * 0.15) * m * 0.01, by = H * 0.3 + Math.cos(t * 0.2) * m * 0.01;
+    const gr = ctx.createRadialGradient(bx, by, r * 0.5, bx, by, r * 3); gr.addColorStop(0, 'rgba(244,220,142,0.28)'); gr.addColorStop(1, 'rgba(244,220,142,0)'); ctx.fillStyle = gr; ctx.fillRect(0, 0, W, H);
+    ctx.save(); ctx.beginPath(); ctx.arc(bx, by, r, 0, TAU); ctx.clip(); ctx.fillStyle = '#f4dc8e'; ctx.beginPath(); ctx.arc(bx, by, r, 0, TAU); ctx.arc(bx + r * 0.42, by - r * 0.1, r * 0.86, 0, TAU); ctx.fill('evenodd'); ctx.restore();
+  } else if (k === 'kubah') {
+    const by = H * 0.9, r = m * 0.3;
+    ctx.fillStyle = 'rgba(5,16,28,0.95)';
+    ctx.beginPath(); ctx.moveTo(cx - r, by); ctx.bezierCurveTo(cx - r, by - r * 1.15, cx + r, by - r * 1.15, cx + r, by); ctx.closePath(); ctx.fill();
+    for (const s of [-1, 1]) { const x = cx + s * r * 1.45; ctx.fillRect(x - m * 0.018, by - m * 0.5, m * 0.036, m * 0.5); ctx.beginPath(); ctx.moveTo(x - m * 0.028, by - m * 0.5); ctx.lineTo(x, by - m * 0.58); ctx.lineTo(x + m * 0.028, by - m * 0.5); ctx.fill(); }
+    ctx.fillRect(0, by, W, H - by);
+    ctx.strokeStyle = gold(0.6); ctx.beginPath(); ctx.moveTo(cx - r, by); ctx.bezierCurveTo(cx - r, by - r * 1.15, cx + r, by - r * 1.15, cx + r, by); ctx.stroke();
+    ctx.strokeStyle = gold(0.9); star8(cx, by - r * 0.72, m * 0.045, t * 0.2);
+  } else if (k === 'gelombang') {
+    for (let i = 0; i < 9; i++) { ctx.strokeStyle = i % 3 ? gold(0.2 + i * 0.03) : teal(0.3); ctx.beginPath(); for (let x = 0; x <= W; x += 8) { const y = H * (0.28 + i * 0.065) + Math.sin(x / (m * 0.16) + t * 0.5 + i) * m * 0.03; ctx[x ? 'lineTo' : 'moveTo'](x, y); } ctx.stroke(); }
+  }
+}
+
+function frame(t, dur) {
+  ctx.globalCompositeOperation = 'source-over';
+  const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, T.warna.malam2); g.addColorStop(1, T.warna.malam); ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  for (const s of stars) { ctx.fillStyle = `rgba(246,239,220,${0.25 + 0.5 * (0.5 + 0.5 * Math.sin(t * s.f + s.p))})`; ctx.beginPath(); ctx.arc(s.x * W, s.y * H, s.r * (W / 1920 + 0.5), 0, TAU); ctx.fill(); }
+  ctx.save(); motif(t, dur); ctx.restore();
+  const v = ctx.createRadialGradient(W / 2, H / 2, Math.min(W, H) * 0.3, W / 2, H / 2, Math.max(W, H) * 0.75); v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,0.5)'); ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
+
+  if (window.MODE === 'thumb') { els.forEach((e) => (e.style.opacity = 1)); document.getElementById('cap').innerHTML = ''; return; }
+  const inn = ease(t / 0.55), out = ease((dur - t) / 0.45), g0 = Math.min(inn, out);
+  const n = els.length, span = Math.max(1, dur - 1.2);
+  els.forEach((e, k) => {
+    const start = S.tipe === 'poin' || n > 2 ? 0.35 + (span * 0.8 * k) / Math.max(n, 1) / (S.tipe === 'poin' ? 1.4 : 2.2) : 0.25 + k * 0.35;
+    const p = ease((t - start) / 0.7);
+    e.style.opacity = Math.min(p, out); e.style.transform = `translateY(${(1 - p) * 2.4}vmin) scale(${0.985 + 0.015 * p + t * 0.0006})`;
+  });
+  // takarir bergerak: tampilkan potongan kata yang sedang dibacakan
+  const showCap = S.caption && S.narasi && (S.tipe === 'poin' || S.tipe === 'penutup' || (S.tipe === 'renungan' && (S.teks || []).join(' ').length < S.narasi.length * 0.5));
+  if (showCap) {
+    const w = S.narasi.split(/\s+/), tot = w.reduce((a, x) => a + x.length + 1, 0), tt = Math.max(0, Math.min(1, (t - 0.25) / Math.max(0.5, dur - 0.6)));
+    let acc = 0, idx = 0; for (; idx < w.length - 1; idx++) { acc += w[idx].length + 1; if (acc / tot > tt) break; }
+    const size = H > W ? 6 : 8, a = Math.floor(idx / size) * size, chunk = w.slice(a, a + size);
+    cap.innerHTML = chunk.map((x, j) => (a + j === idx ? `<b>${esc(x)}</b>` : esc(x))).join(' '); cap.style.opacity = g0;
+  } else cap.innerHTML = '';
+}
+window.setup = setup; window.frame = frame;
+</script></body></html>

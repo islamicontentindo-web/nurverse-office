@@ -1,0 +1,49 @@
+# Denyut kantor: tiap 3 jam (UTC) + bisa dijalankan manual dari HP (tab Actions atau tombol di pemantau).
+name: kantor
+on:
+  schedule: [{ cron: "7 */3 * * *" }]
+  workflow_dispatch:
+permissions: { contents: write, pages: write, id-token: write }
+concurrency: { group: kantor, cancel-in-progress: false }
+jobs:
+  denyut:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Pasang ffmpeg, font Arab/Latin, edge-tts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-hosny-amiri fonts-noto-core fonts-inter
+          pip install -q edge-tts
+          fc-cache -f
+      - run: npm install --no-audit --no-fund
+      - name: Denyut
+        run: node src/tick.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          CHROME_PATH: /usr/bin/google-chrome
+          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Simpan keadaan (hanya berkas kecil; video tidak pernah di-commit)
+        if: always()
+        run: |
+          git config user.name "kantor-nurverse"; git config user.email "kantor@users.noreply.github.com"
+          git add state data office/src/laporan.json office/public/hp/status.json
+          git diff --cached --quiet || { git commit -m "denyut: $(date -u +%F\ %H:%M)"; for i in 1 2 3; do git pull --rebase -X theirs && git push && break || sleep 5; done; }
+  situs:
+    needs: denyut
+    if: always()
+    uses: ./.github/workflows/situs.yml
+    permissions: { contents: read, pages: write, id-token: write }

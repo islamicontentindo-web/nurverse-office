@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="id"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#071a2b"><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon.svg">
+<title>NURVERSE · Pemantau</title>
+<style>
+:root{--bg:#071a2b;--card:#0e2a40;--gold:#e3b341;--ink:#f6efdc;--dim:#8fa9b8;--ok:#18a58a;--bad:#e4572e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,'Inter',sans-serif;padding:env(safe-area-inset-top) 0 40px}
+header{padding:18px 16px 8px;display:flex;justify-content:space-between;align-items:center}
+h1{margin:0;font-size:20px;letter-spacing:.18em;color:var(--gold)}small,.dim{color:var(--dim)}
+main{padding:0 12px;max-width:640px;margin:auto}.card{background:var(--card);border-radius:14px;padding:12px 14px;margin:10px 0;border:1px solid #16405e}
+.row{display:flex;gap:8px;align-items:center;justify-content:space-between}.tag{font-size:12px;padding:2px 9px;border-radius:99px;background:#16405e;white-space:nowrap}
+.tag.menunggu_persetujuan,.tag.butuh_manusia,.tag.terkunci_private{background:var(--bad)}.tag.terjadwal,.tag.tayang{background:var(--ok)}
+button,a.btn{font:inherit;border:0;border-radius:10px;padding:9px 14px;background:var(--gold);color:#201600;font-weight:700;text-decoration:none;cursor:pointer;display:inline-block}
+button.sec,a.sec{background:#16405e;color:var(--ink)}button.no{background:#5a2a22;color:var(--ink)}
+.warn{border-color:var(--bad)}.warn b{color:var(--bad)}h2{font-size:13px;margin:18px 4px 4px;color:var(--dim);letter-spacing:.12em;text-transform:uppercase}
+.log{font-size:13px;margin:3px 0}.log.galat{color:#ff9b82}.log.peringatan{color:#ffd277}input{width:100%;padding:9px;border-radius:8px;border:1px solid #16405e;background:#071a2b;color:var(--ink);margin:4px 0 10px}
+.btns{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+</style></head><body>
+<header><h1>NURVERSE</h1><div class="row" style="gap:6px"><a class="btn sec" href="../">Kantor 3D</a><button class="sec" id="gear">⚙</button></div></header>
+<main>
+<div id="meta" class="dim" style="padding:0 4px 6px"></div>
+<div id="warn"></div>
+<h2>Perlu keputusanmu</h2><div id="tunggu"></div>
+<h2>Antrean pekan ini</h2><div id="antrean"></div>
+<h2>Catatan karyawan</h2><div id="log" class="card"></div>
+<div class="btns"><button id="jalan" class="sec">▶ Jalankan denyut sekarang</button><button id="muat" class="sec">↻ Muat ulang</button></div>
+<div id="set" class="card" style="display:none"><b>Pengaturan HP ini</b><p class="dim">Tombol Setujui/Tolak memakai token GitHub yang hanya disimpan di HP ini. Buat di GitHub → Settings → Developer settings → Fine-grained tokens, hanya untuk repo ini, izin <b>Actions: Read and write</b>.</p>
+<label>Repo (pemilik/nama)</label><input id="repo" placeholder="namamu/nurverse-office"><label>Token</label><input id="tok" type="password" placeholder="github_pat_…"><button id="simpan">Simpan</button></div>
+</main>
+<script>
+const $ = (s) => document.querySelector(s), K = 'nurverse-hp';
+const get = () => { try { return JSON.parse(localStorage.getItem(K) || '{}'); } catch { return {}; } };
+const el = (t, p = {}, ...k) => { const e = Object.assign(document.createElement(t), p); k.flat().forEach((x) => e.append(x)); return e; };
+const wib = (iso) => new Date(iso).toLocaleString('id-ID', { timeZone: 'Asia/Jakarta', weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }) + ' WIB';
+let data;
+async function dispatch(wf, inputs = {}) {
+  const c = get(), repo = c.repo || data?.repo;
+  if (!repo || !c.tok) { alert('Isi repo & token dulu di ⚙'); $('#set').style.display = 'block'; return false; }
+  const r = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/${wf}/dispatches`, { method: 'POST', headers: { authorization: 'Bearer ' + c.tok, accept: 'application/vnd.github+json' }, body: JSON.stringify({ ref: 'main', inputs }) });
+  if (r.status === 204) return true;
+  alert('Gagal (' + r.status + '). Periksa token/izin.'); return false;
+}
+function kartu(i, aksi) {
+  const c = el('div', { className: 'card' });
+  c.append(el('div', { className: 'row' }, el('b', { textContent: i.judul }), el('span', { className: 'tag ' + i.status, textContent: i.label })));
+  c.append(el('div', { className: 'dim', textContent: `${i.jenis === 'utama' ? 'Video utama' : 'Short'} · tayang ${wib(i.slot)}${i.galat ? ' · ' + i.galat : ''}` }));
+  const b = el('div', { className: 'btns' });
+  if (i.ytId) b.append(el('a', { className: 'btn sec', href: `https://studio.youtube.com/video/${i.ytId}/edit`, textContent: 'Tonton / Studio', target: '_blank', rel: 'noopener' }));
+  if (aksi) {
+    b.append(el('button', { textContent: '✔ Setujui', onclick: async (e) => { e.target.disabled = true; if (await dispatch('approve.yml', { id: i.id, keputusan: 'setuju' })) e.target.textContent = 'Diproses… (±1 menit)'; else e.target.disabled = false; } }));
+    b.append(el('button', { className: 'no', textContent: '✖ Tolak', onclick: async (e) => { if (confirm('Tolak video ini?')) { e.target.disabled = true; if (await dispatch('approve.yml', { id: i.id, keputusan: 'tolak' })) e.target.textContent = 'Diproses…'; else e.target.disabled = false; } } }));
+  }
+  if (b.children.length) c.append(b);
+  return c;
+}
+function gambar() {
+  $('#meta').textContent = `Diperbarui ${wib(data.diperbarui)} · mode ${data.mode === 'review' ? 'persetujuan manual' : 'otomatis'} · LLM ${data.penggunaan.llm}/${data.penggunaan.batas} hari ini`;
+  $('#warn').replaceChildren(...data.peringatan.map((p) => el('div', { className: 'card warn' }, el('b', { textContent: '⚠ ' }), p)));
+  const t = data.antrean.filter((i) => i.status === 'menunggu_persetujuan');
+  $('#tunggu').replaceChildren(...(t.length ? t.map((i) => kartu(i, true)) : [el('div', { className: 'dim', textContent: 'Tidak ada. Semua beres 🌙', style: 'padding:6px 4px' })]));
+  $('#antrean').replaceChildren(...data.antrean.filter((i) => i.status !== 'menunggu_persetujuan').map((i) => kartu(i)));
+  $('#log').replaceChildren(...data.log.map((l) => el('div', { className: 'log ' + l.tingkat, textContent: `${new Date(l.t).toLocaleTimeString('id-ID', { timeZone: 'Asia/Jakarta', hour: '2-digit', minute: '2-digit' })} ${l.agen}: ${l.teks}` })));
+}
+async function muat() {
+  try { data = await (await fetch('status.json?t=' + Date.now(), { cache: 'no-store' })).json(); gambar(); }
+  catch { $('#meta').textContent = 'Belum ada data. Jalankan denyut pertama dari tombol di bawah atau tab Actions.'; }
+}
+$('#muat').onclick = muat;
+$('#gear').onclick = () => { const c = get(); $('#repo').value = c.repo || data?.repo || ''; $('#tok').value = c.tok || ''; $('#set').style.display = $('#set').style.display === 'none' ? 'block' : 'none'; };
+$('#simpan').onclick = () => { localStorage.setItem(K, JSON.stringify({ repo: $('#repo').value.trim(), tok: $('#tok').value.trim() })); $('#set').style.display = 'none'; };
+$('#jalan').onclick = async () => { if (await dispatch('kantor.yml')) alert('Denyut dijalankan. Muat ulang beberapa menit lagi.'); };
+muat(); setInterval(muat, 120000);
+</script></body></html>

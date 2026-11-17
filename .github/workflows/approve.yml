@@ -1,0 +1,35 @@
+# Setujui/tolak video dari HP (tombol di pemantau, atau Actions > approve > Run workflow).
+name: approve
+on:
+  workflow_dispatch:
+    inputs:
+      id: { description: "ID video, mis. 2026-W47-U1", required: true }
+      keputusan: { description: "setuju atau tolak", required: true, default: setuju, type: choice, options: [setuju, tolak] }
+permissions: { contents: write, pages: write, id-token: write }
+concurrency: { group: approve, cancel-in-progress: false }
+jobs:
+  putuskan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node src/approve.mjs "${{ inputs.id }}" "${{ inputs.keputusan }}"
+        env:
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: Simpan keputusan
+        if: always()
+        run: |
+          git config user.name "kantor-nurverse"; git config user.email "kantor@users.noreply.github.com"
+          git add state office/src/laporan.json office/public/hp/status.json
+          git diff --cached --quiet || { git commit -m "persetujuan ${{ inputs.id }}"; for i in 1 2 3; do git pull --rebase -X theirs && git push && break || sleep 5; done; }
+  situs:
+    needs: putuskan
+    if: always()
+    uses: ./.github/workflows/situs.yml
+    permissions: { contents: read, pages: write, id-token: write }
