@@ -1,0 +1,85 @@
+{
+  "diperbarui": "2026-11-17T02:16:17.913Z",
+  "mode": "review",
+  "repo": "islamicontentindo-web/nurverse-office",
+  "penggunaan": {
+    "llm": 1,
+    "batas": 30
+  },
+  "peringatan": [
+    "naskah: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+  ],
+  "antrean": [
+    {
+      "id": "2026-W47-S4",
+      "jenis": "short",
+      "judul": "Sabar dalam ujian",
+      "status": "rencana",
+      "label": "direncanakan",
+      "slot": "2026-11-23T05:30:00.000Z",
+      "ytId": null
+    },
+    {
+      "id": "2026-W47-S3",
+      "jenis": "short",
+      "judul": "Sabar dalam ujian",
+      "status": "rencana",
+      "label": "direncanakan",
+      "slot": "2026-11-22T12:30:00.000Z",
+      "ytId": null
+    },
+    {
+      "id": "2026-W47-S2",
+      "jenis": "short",
+      "judul": "Sabar dalam ujian",
+      "status": "rencana",
+      "label": "direncanakan",
+      "slot": "2026-11-21T01:00:00.000Z",
+      "ytId": null
+    },
+    {
+      "id": "2026-W47-S1",
+      "jenis": "short",
+      "judul": "Sabar dalam ujian",
+      "status": "rencana",
+      "label": "direncanakan",
+      "slot": "2026-11-18T11:30:00.000Z",
+      "ytId": null
+    },
+    {
+      "id": "2026-W47-U1",
+      "jenis": "utama",
+      "judul": "Sabar dalam menghadapi ujian hidup",
+      "status": "rencana",
+      "label": "direncanakan",
+      "slot": "2026-11-20T09:00:00.000Z",
+      "ytId": null
+    }
+  ],
+  "log": [
+    {
+      "t": "2026-11-17T02:16:17.912Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-17T02:14:14.277Z",
+      "agen": "bima",
+      "teks": "rencana 2026-W47: \"Sabar dalam menghadapi ujian hidup\" + 4 short",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T02:14:11.429Z",
+      "agen": "tara",
+      "teks": "riset selesai: 6 outlier, 10 tren ID",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T02:14:00.636Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    }
+  ]
+}

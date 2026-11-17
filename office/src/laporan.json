@@ -1,1 +1,65 @@
-{}
+{
+  "tara": {
+    "ringkasan": "Musim: 7 Jumadil Akhir 1448. 6 video outlier di niche, 10 tren Indonesia dipantau.",
+    "angka": [
+      {
+        "label": "Outlier niche",
+        "nilai": "6 video"
+      }
+    ]
+  },
+  "bima": {
+    "ringkasan": "Pekan 2026-W47: 1 utama + 4 short direncanakan.",
+    "angka": [
+      {
+        "label": "Dalam antrean",
+        "nilai": "5 video"
+      }
+    ]
+  },
+  "laila": {
+    "ringkasan": "0 naskah selesai.",
+    "angka": [
+      {
+        "label": "Panggilan LLM hari ini",
+        "nilai": "1/30"
+      }
+    ]
+  },
+  "hasan": {
+    "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
+  },
+  "nadia": {
+    "ringkasan": "0 terjadwal, 0 tayang.",
+    "angka": [
+      {
+        "label": "Menunggu",
+        "nilai": "0 video"
+      }
+    ]
+  },
+  "rafi": {
+    "ringkasan": "0 storyboard dibuat sesuai standar NURVERSE."
+  },
+  "salma": {
+    "ringkasan": "Suara: id-ID-ArdiNeural. Ayat tidak dibacakan suara sintetis, hanya terjemahannya."
+  },
+  "dika": {
+    "ringkasan": "0 video sudah dirender.",
+    "angka": [
+      {
+        "label": "Total render",
+        "nilai": "0 menit"
+      }
+    ]
+  },
+  "fikri": {
+    "ringkasan": "Memantau statistik video yang sudah tayang.",
+    "angka": [
+      {
+        "label": "Tayang",
+        "nilai": "0 video"
+      }
+    ]
+  }
+}

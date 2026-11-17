@@ -1,0 +1,77 @@
+{
+  "dibuat": "2026-11-17T02:14:00.637Z",
+  "pekan": "2026-W47",
+  "musim": {
+    "hijriah": "7 Jumadil Akhir 1448",
+    "bulan_ini": [
+      "sabar dalam ujian"
+    ],
+    "bulan_depan": [
+      "Isra Mi'raj (27 Rajab) dan shalat"
+    ],
+    "catatan": "Hari Jumat: tema Jumat/shalawat/sedekah selalu relevan."
+  },
+  "tren_id": [
+    "timberwolves vs blazers",
+    "kanada vs",
+    "canada vs guatemala",
+    "calon pegawai negeri sipil",
+    "wakil presiden pengganti gibran",
+    "joao felix",
+    "heat vs rockets",
+    "wizards vs grizzlies",
+    "pierce brosnan",
+    "pelicans vs warriors"
+  ],
+  "outlier": [
+    {
+      "judul": "semoga bermanfaat #dakwah #trending #motivasi #shortvideo #fyp #short #viralvideo #islam #quotes",
+      "kanal": "MULUT NETIZEN",
+      "tayang": 2183114,
+      "median_kanal": 5924,
+      "kelipatan": 368.5,
+      "umur_hari": 3
+    },
+    {
+      "judul": "Semoga bermanfaat#dakwah#trending#motivasi#shortvideo#fypX#short#viralvidio#islam#quotes",
+      "kanal": "PUNK BERITA",
+      "tayang": 6122253,
+      "median_kanal": 29792,
+      "kelipatan": 205.5,
+      "umur_hari": 14
+    },
+    {
+      "judul": "Semoga bermanfaat#dakwah#trending#motivasi#shortvideo#fyp#short#viralvidio#islam#quotes",
+      "kanal": "apel news",
+      "tayang": 3258559,
+      "median_kanal": 46129,
+      "kelipatan": 70.6,
+      "umur_hari": 7
+    },
+    {
+      "judul": "Semoga bermanfaat #dakwah #trending #motivasi #shortvidio #fyp #short #viralvidio #islam #quotes",
+      "kanal": "Masyarakat Penuh Informasi ",
+      "tayang": 3286924,
+      "median_kanal": 87209.5,
+      "kelipatan": 37.7,
+      "umur_hari": 3
+    },
+    {
+      "judul": "Bertaubatlah Selagi Masih Ada Waktu Ya Guys #dakwah #motivasiislami #renungan #shortindonesia",
+      "kanal": "Catatan Harian",
+      "tayang": 3899005,
+      "median_kanal": 118968.5,
+      "kelipatan": 32.8,
+      "umur_hari": 21
+    },
+    {
+      "judul": "Semoga bermanfaat#dakwahX#trending#motivasi#shortvideo#fyp#shorts#viralvideo#islam#quotes",
+      "kanal": "Sajada New",
+      "tayang": 2130479,
+      "median_kanal": 106044.5,
+      "kelipatan": 20.1,
+      "umur_hari": 3
+    }
+  ],
+  "catatan": []
+}

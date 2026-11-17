@@ -1,0 +1,94 @@
+{
+  "items": [
+    {
+      "pekan": "2026-W47",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-17T02:14:14.277Z",
+      "id": "2026-W47-U1",
+      "jenis": "utama",
+      "slot": "2026-11-20T09:00:00.000Z",
+      "topik": "Sabar dalam menghadapi ujian hidup",
+      "sudut": "Kenapa rasa lelah dalam menahan sabar ternyata menyimpan catatan terbaik yang tidak disadari?",
+      "formula": "taruhan-kehilangan",
+      "dalil": {
+        "ayat": [
+          "az-zumar:10"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W47",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-17T02:14:14.277Z",
+      "id": "2026-W47-S1",
+      "jenis": "short",
+      "slot": "2026-11-18T11:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Kesalahan umum saat menganggap ujian hidup adalah tanda kebencian, padahal itu bentuk perhatian.",
+      "formula": "kesalahan-umum",
+      "dalil": {
+        "ayat": [
+          "al-baqarah:155"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W47",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-17T02:14:14.277Z",
+      "id": "2026-W47-S2",
+      "jenis": "short",
+      "slot": "2026-11-21T01:00:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Pernyataan tegas tentang beratnya menahan lisan saat musibah datang mendadak.",
+      "formula": "pernyataan-tegas",
+      "dalil": {
+        "ayat": [
+          "ali 'imran:200"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W47",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-17T02:14:14.277Z",
+      "id": "2026-W47-S3",
+      "jenis": "short",
+      "slot": "2026-11-22T12:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Pertanyaan yang membuatmu terdiam ketika lelah berharap pada manusia yang tidak pasti.",
+      "formula": "pertanyaan-yang-tak-bisa-ditutup",
+      "dalil": {
+        "ayat": [
+          "ar-rad:22"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W47",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-17T02:14:14.277Z",
+      "id": "2026-W47-S4",
+      "jenis": "short",
+      "slot": "2026-11-23T05:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Taruhan kehilangan ketenangan jika terus membandingkan ujianmu dengan nikmat orang lain.",
+      "formula": "taruhan-kehilangan",
+      "dalil": {
+        "ayat": [
+          "ibrahim:7"
+        ],
+        "hadis": []
+      }
+    }
+  ]
+}
