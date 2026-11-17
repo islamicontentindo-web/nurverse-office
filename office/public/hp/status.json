@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-17T07:43:01.779Z",
+  "diperbarui": "2026-11-17T07:44:06.709Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -21,8 +21,8 @@
       "id": "2026-W47-S3",
       "jenis": "short",
       "judul": "Lelah Berharap pada Manusia #Shorts",
-      "status": "menunggu_persetujuan",
-      "label": "menunggu persetujuanmu",
+      "status": "terjadwal",
+      "label": "terjadwal",
       "slot": "2026-11-22T12:30:00.000Z",
       "ytId": "9SSJw7iSuGA"
     },
@@ -55,6 +55,12 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-17T07:44:06.707Z",
+      "agen": "nadia",
+      "teks": "2026-W47-S3: setuju -> terjadwal (tayang 2026-11-22T12:30:00.000Z)",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-17T07:43:01.777Z",
       "agen": "nadia",
@@ -197,12 +203,6 @@
       "t": "2026-11-17T03:57:49.009Z",
       "agen": "laila",
       "teks": "naskah utama: \"Lelah Bersabar? Ini yang Sedang Disiapkan\"",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-17T03:57:07.127Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
       "tingkat": "info"
     }
   ]

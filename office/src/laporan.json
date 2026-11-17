@@ -30,15 +30,11 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "2 video menunggu persetujuanmu.",
-    "menunggu": [
-      "Setujui: Lelah Berharap pada Manusia #Shorts",
-      "Setujui: Bahaya Membandingkan Ujian Hidup #Shorts"
-    ],
+    "ringkasan": "5 terjadwal, 0 tayang.",
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "2 video"
+        "nilai": "0 video"
       }
     ]
   },
