@@ -1,0 +1,132 @@
+{
+  "id": "2026-W47-U1",
+  "jenis": "utama",
+  "ukuran": [
+    1920,
+    1080
+  ],
+  "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
+  "thumb": "JANGAN MENYERAH DULU",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Ketika lelah mulai mengetuk,",
+        "jangan lepaskan kesabaranmu."
+      ],
+      "caption": true,
+      "narasi": "Kalau kamu menyerah hari ini, kamu mungkin kehilangan balasan terbesar yang sedang dirapikan diam-diam. Menahan lelah itu berat, tapi melepaskannya begitu saja bisa membuat langkahmu kembali ke titik hampa."
+    },
+    {
+      "i": 1,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "judul": "",
+      "teks": [
+        "Memilih diam di tengah badai",
+        "bukan berarti tanpa rasa sakit."
+      ],
+      "caption": true,
+      "narasi": "Ada hari-hari ketika menahan diri terasa jauh lebih menguras tenaga daripada meluapkan kekesalan. Kamu memilih diam, bukan karena tidak punya rasa sakit, melainkan karena ingin menjaga hatimu tetap bersih dari keluh kesah."
+    },
+    {
+      "i": 2,
+      "tipe": "poin",
+      "motif": "arabesk",
+      "judul": "Lelah yang Sangat Manusiawi",
+      "teks": [
+        "Lelah adalah bukti",
+        "kamu sedang berjuang sungguh-sungguh."
+      ],
+      "caption": true,
+      "narasi": "Merasa lelah bukan tanda bahwa kamu gagal bersabar. Tubuh dan jiwamu hanyalah ruang kecil yang sedang memikul beban besar. Rasa letih itu bukti nyata bahwa kamu sedang berjuang sungguh-sungguh menahan gelombang emosi."
+    },
+    {
+      "i": 3,
+      "tipe": "poin",
+      "motif": "cahaya",
+      "judul": "Bukan Pasrah Tanpa Daya",
+      "teks": [
+        "Sabar adalah kendali diri,",
+        "bukan menyerah tanpa arti."
+      ],
+      "caption": true,
+      "narasi": "Banyak yang mengira sabar adalah ketundukan pasif. Padahal, sabar adalah energi aktif untuk mengendalikan arah pikiran saat segalanya tampak kacau. Setiap kali kamu menelan amarah, ada kemenangan tak terlihat yang sedang kamu raih."
+    },
+    {
+      "i": 4,
+      "tipe": "renungan",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Tak ada tetes air mata",
+        "yang luput dari perhitungan."
+      ],
+      "caption": true,
+      "narasi": "Ketika tidak ada seorang pun yang menyadari betapa beratnya kamu menahan air mata, ada kepastian bahwa tidak ada satu detik pun dari perjuanganmu yang terlewatkan. Lelahmu sedang ditimbang dengan timbangan yang amat mulia."
+    },
+    {
+      "i": 5,
+      "tipe": "poin",
+      "motif": "cahaya",
+      "judul": "Ganjaran Tanpa Batas",
+      "teks": [
+        "Balasan kesabaran",
+        "diberikan tanpa hitungan."
+      ],
+      "caption": true,
+      "narasi": "Pesan yang baru saja kita resapi menegaskan satu hal penting: balasan bagi mereka yang bersabar tidak dihitung dengan takaran biasa. Ketiadaan batas hitungan itu menjadi tanda bahwa lelahmu dihargai dengan kelimpahan yang melampaui bayangan."
+    },
+    {
+      "i": 6,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Bertahanlah sedikit lagi,",
+        "kamu sudah melangkah sejauh ini."
+      ],
+      "caption": true,
+      "narasi": "Bayangkan jika kamu berhenti beberapa saat sebelum pintu kemudahan itu terbuka. Semua proses menahan diri yang sudah kamu bangun bisa runtuh hanya karena ketidaksabaran sesaat. Bertahanlah sedikit lagi, langkahmu sudah sejauh ini."
+    },
+    {
+      "i": 7,
+      "tipe": "poin",
+      "motif": "arabesk",
+      "judul": "Menemukan Titik Tenang",
+      "teks": [
+        "Alihkan pandangan,",
+        "sandarkan akhir pada ketetapan terbaik."
+      ],
+      "caption": true,
+      "narasi": "Agar tidak runtuh oleh rasa lelah, alihkan pandanganmu dari besarnya ujian kepada luasnya pertolongan yang dijanjikan. Sabar bukan berarti memendam luka sendirian, tetapi menyerahkan hasil akhirnya kepada ketetapan yang paling bijaksana."
+    },
+    {
+      "i": 8,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "judul": "",
+      "teks": [
+        "Di balik napas yang berat,",
+        "batinmu sedang ditempa menjadi kokoh."
+      ],
+      "caption": true,
+      "narasi": "Setiap hembusan napas berat yang kamu tahan dalam ketaatan akan berbuah keteduhan batin. Ujian ini mungkin belum selesai, tetapi hatimu perlahan tumbuh menjadi lebih lapang, kuat, dan penuh kelembutan."
+    },
+    {
+      "i": 9,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Tarik napas panjang malam ini,",
+        "dan hargai keteguhan langkahmu."
+      ],
+      "caption": true,
+      "narasi": "Malam ini, luangkan satu menit untuk menarik napas panjang, lepaskan sesakmu, dan berterima kasihlah pada dirimu yang telah memilih untuk tetap bertahan dalam kesabaran."
+    }
+  ]
+}

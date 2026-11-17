@@ -1,0 +1,152 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Kalau kamu menyerah hari ini, kamu mungkin kehilangan balasan terbesar yang sedang dirapikan diam-diam. Menahan lelah itu berat, tapi melepaskannya begitu saja bisa membuat langkahmu kembali ke titik hampa.",
+      "teks": [
+        "Ketika lelah mulai mengetuk,",
+        "jangan lepaskan kesabaranmu."
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Ada hari-hari ketika menahan diri terasa jauh lebih menguras tenaga daripada meluapkan kekesalan. Kamu memilih diam, bukan karena tidak punya rasa sakit, melainkan karena ingin menjaga hatimu tetap bersih dari keluh kesah.",
+      "teks": [
+        "Memilih diam di tengah badai",
+        "bukan berarti tanpa rasa sakit."
+      ],
+      "motif": "bulan"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Lelah yang Sangat Manusiawi",
+      "narasi": "Merasa lelah bukan tanda bahwa kamu gagal bersabar. Tubuh dan jiwamu hanyalah ruang kecil yang sedang memikul beban besar. Rasa letih itu bukti nyata bahwa kamu sedang berjuang sungguh-sungguh menahan gelombang emosi.",
+      "teks": [
+        "Lelah adalah bukti",
+        "kamu sedang berjuang sungguh-sungguh."
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Bukan Pasrah Tanpa Daya",
+      "narasi": "Banyak yang mengira sabar adalah ketundukan pasif. Padahal, sabar adalah energi aktif untuk mengendalikan arah pikiran saat segalanya tampak kacau. Setiap kali kamu menelan amarah, ada kemenangan tak terlihat yang sedang kamu raih.",
+      "teks": [
+        "Sabar adalah kendali diri,",
+        "bukan menyerah tanpa arti."
+      ],
+      "motif": "cahaya"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Ketika tidak ada seorang pun yang menyadari betapa beratnya kamu menahan air mata, ada kepastian bahwa tidak ada satu detik pun dari perjuanganmu yang terlewatkan. Lelahmu sedang ditimbang dengan timbangan yang amat mulia.",
+      "teks": [
+        "Tak ada tetes air mata",
+        "yang luput dari perhitungan."
+      ],
+      "motif": "bintang"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Ganjaran Tanpa Batas",
+      "narasi": "Pesan yang baru saja kita resapi menegaskan satu hal penting: balasan bagi mereka yang bersabar tidak dihitung dengan takaran biasa. Ketiadaan batas hitungan itu menjadi tanda bahwa lelahmu dihargai dengan kelimpahan yang melampaui bayangan.",
+      "teks": [
+        "Balasan kesabaran",
+        "diberikan tanpa hitungan."
+      ],
+      "motif": "cahaya"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Bayangkan jika kamu berhenti beberapa saat sebelum pintu kemudahan itu terbuka. Semua proses menahan diri yang sudah kamu bangun bisa runtuh hanya karena ketidaksabaran sesaat. Bertahanlah sedikit lagi, langkahmu sudah sejauh ini.",
+      "teks": [
+        "Bertahanlah sedikit lagi,",
+        "kamu sudah melangkah sejauh ini."
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Menemukan Titik Tenang",
+      "narasi": "Agar tidak runtuh oleh rasa lelah, alihkan pandanganmu dari besarnya ujian kepada luasnya pertolongan yang dijanjikan. Sabar bukan berarti memendam luka sendirian, tetapi menyerahkan hasil akhirnya kepada ketetapan yang paling bijaksana.",
+      "teks": [
+        "Alihkan pandangan,",
+        "sandarkan akhir pada ketetapan terbaik."
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Setiap hembusan napas berat yang kamu tahan dalam ketaatan akan berbuah keteduhan batin. Ujian ini mungkin belum selesai, tetapi hatimu perlahan tumbuh menjadi lebih lapang, kuat, dan penuh kelembutan.",
+      "teks": [
+        "Di balik napas yang berat,",
+        "batinmu sedang ditempa menjadi kokoh."
+      ],
+      "motif": "bulan"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Malam ini, luangkan satu menit untuk menarik napas panjang, lepaskan sesakmu, dan berterima kasihlah pada dirimu yang telah memilih untuk tetap bertahan dalam kesabaran.",
+      "teks": [
+        "Tarik napas panjang malam ini,",
+        "dan hargai keteguhan langkahmu."
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Kalau kamu menyerah hari ini, kamu mungkin kehilangan balasan terbesar yang sedang dirapikan diam-diam. Menahan lelah itu berat, tapi melepaskannya begitu saja bisa membuat langkahmu kembali ke titik hampa.",
+  "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
+  "thumb": "JANGAN MENYERAH DULU",
+  "deskripsi": "Pernahkah kamu merasa begitu lelah saat berusaha tetap sabar menghadapi ujian hidup? Video ini mengajakmu menyelami makna di balik rasa lelah tersebut dan janji ketenangan yang menyertainya. Temukan kekuatan baru untuk terus melangkah dengan hati yang lapang.",
+  "tag": [
+    "sabar menghadapi ujian",
+    "arti sabar dalam islam",
+    "kekuatan sabar",
+    "renungan hati lelah",
+    "motivasi islami",
+    "ketenangan jiwa",
+    "surah az zumar ayat 10",
+    "penguat hati",
+    "nurverse"
+  ],
+  "kueri": [
+    "cara ikhlas dan sabar menghadapi cobaan hidup",
+    "kenapa sabar itu terasa sangat melelahkan",
+    "balasan orang yang sabar menurut al quran"
+  ],
+  "masalah_paket": [],
+  "hook_info": {
+    "teks": "Kalau kamu menyerah hari ini, kamu mungkin kehilangan balasan terbesar yang sedang dirapikan diam-diam. Menahan lelah itu berat, tapi melepaskannya begitu saja bisa membuat langkahmu kembali ke titik hampa.",
+    "skor": 35,
+    "panel": {
+      "spesifik": 32,
+      "menyapa": 96,
+      "taruhan": 22,
+      "penasaran": 41,
+      "ringkas": 28
+    },
+    "semua": [
+      [
+        "Kalau kamu menyerah hari ini, kamu mungkin kehilangan balasan terbesar yang sedang dirapikan diam-diam. Menahan lelah itu berat, tapi melepaskannya begitu saja bisa membuat langkahmu kembali ke titik hampa.",
+        35
+      ],
+      [
+        "Sadarkah kamu, membuang kesabaran saat lelah memuncak bisa membuatmu kehilangan pahala tanpa batas yang tinggal selangkah lagi? Rasa sesakmu bukan kesia-siaan, melainkan tabungan yang belum tampak di pelupuk mata.",
+        34
+      ],
+      [
+        "Jangan biarkan rasa lelah membuatmu kehilangan ketenangan yang sudah kamu perjuangkan berbulan-bulan. Sekali kamu melepas sabar karena putus asa, beban itu tidak berkurang, justru keteduhan batinmu yang perlahan sirna.",
+        34
+      ],
+      [
+        "Kamu bisa saja memilih berhenti dan meluapkan amarah malam ini, tapi taruhannya adalah hilangnya catatan paling mulia yang sedang ditulis untukmu. Di balik napas yang terasa berat, ada kemuliaan yang dirawat.",
+        32
+      ],
+      [
+        "Taruhannya terlalu mahal jika kamu menyerah saat ujian sedang di puncaknya. Setiap detik kamu menahan diri dalam keheningan, ada anugerah luar biasa yang sedang disiapkan agar pengorbananmu tidak berakhir sia-sia.",
+        29
+      ]
+    ]
+  }
+}

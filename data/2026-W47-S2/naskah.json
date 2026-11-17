@@ -1,0 +1,71 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Bisakah kamu diam tiga detik saja saat kabar buruk mendadak tiba?",
+      "teks": [
+        "Kalah telak jika mengeluh",
+        "pada detik pertama musibah"
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Sabar yang bernilai tinggi bukan terjadi setelah badai mereda, melainkan pada benturan awal yang mengejutkan. Menahan lisan agar tidak mengumpat memang terasa sangat pahit, tetapi di titik itulah martabat imanmu diuji.",
+      "teks": [
+        "Sabar sejati ada",
+        "pada hentakan pertama,",
+        "bukan setelah reda"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Jangan biarkan emosi sesaat merusak pahala yang telah disiapkan untukmu. Mulai hari ini, biasakan jeda tiga detik sebelum berucap saat menghadapi kabar buruk, supaya...",
+      "teks": [
+        "Beri jeda tiga detik",
+        "sebelum berucap"
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Bisakah kamu diam tiga detik saja saat kabar buruk mendadak tiba?",
+  "judul": "Menahan Lisan Saat Musibah Mendadak",
+  "thumb": "Kalah Telak Karena",
+  "deskripsi": "Ujian terbesar kesabaran ada pada reaksi pertama lisan kita saat musibah datang. Latih diri menahan keluhan agar pahala kesabaran tetap utuh.",
+  "tag": [
+    "sabardalamujian",
+    "jagalahan",
+    "pengingatdiri",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 4 kata (maks 3)"
+  ],
+  "hook_info": {
+    "teks": "Bisakah kamu diam tiga detik saja saat kabar buruk mendadak tiba?",
+    "skor": 40,
+    "panel": {
+      "spesifik": 34,
+      "menyapa": 76,
+      "taruhan": 22,
+      "penasaran": 42,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Bisakah kamu diam tiga detik saja saat kabar buruk mendadak tiba?",
+        40
+      ],
+      [
+        "Kamu akan kalah telak jika membiarkan lisanmu mengeluh, tepat di detik pertama musibah datang menghantam.",
+        37
+      ],
+      [
+        "Taruhan terbesarmu saat tertimpa masalah adalah caramu menjaga lisan.",
+        32
+      ]
+    ]
+  }
+}

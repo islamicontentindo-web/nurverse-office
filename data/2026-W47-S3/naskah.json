@@ -1,0 +1,71 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Berapa kali lagi kamu harus kecewa sebelum sadar tempat bersandar yang sebenarnya?",
+      "teks": [
+        "Sampai kapan menaruh harap",
+        "pada manusia yang fana?"
+      ],
+      "motif": "bulan"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Rasa kecewa yang kamu rasakan hari ini adalah teguran halus. Setiap kali kamu bersandar pada makhluk, hatimu akan rapuh. Namun saat kamu memilih bersabar hanya demi keridaan Tuhanmu, lelahmu langsung berubah menjadi ketenangan yang utuh.",
+      "teks": [
+        "Kecewa adalah teguran halus",
+        "agar kamu kembali",
+        "bersandar pada-Nya"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Tidak ada harapan yang berujung sia-sia jika kamu titipkan langsung ke langit. Malam ini, luangkan waktu untuk mencurahkan semua keluh kesahmu dalam sujud, daripada...",
+      "teks": [
+        "Curahkan keluh kesahmu",
+        "hanya dalam sujud"
+      ],
+      "motif": "kubah"
+    }
+  ],
+  "hook": "Berapa kali lagi kamu harus kecewa sebelum sadar tempat bersandar yang sebenarnya?",
+  "judul": "Lelah Berharap pada Manusia",
+  "thumb": "Sampai Kapan Berharap",
+  "deskripsi": "Menaruh harapan pada sesama manusia sering berujung kecewa. Alihkan sandaran hatimu hanya demi keridaan Allah agar kesabaranmu berbuah ketenangan.",
+  "tag": [
+    "tawakal",
+    "harapan",
+    "sabar",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 4 kata (maks 3)"
+  ],
+  "hook_info": {
+    "teks": "Berapa kali lagi kamu harus kecewa sebelum sadar tempat bersandar yang sebenarnya?",
+    "skor": 44,
+    "panel": {
+      "spesifik": 26,
+      "menyapa": 76,
+      "taruhan": 48,
+      "penasaran": 42,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Berapa kali lagi kamu harus kecewa sebelum sadar tempat bersandar yang sebenarnya?",
+        44
+      ],
+      [
+        "Kamu mau sampai kapan menggantungkan harapan pada manusia, yang bahkan tidak sanggup menjamin napasnya esok pagi?",
+        43
+      ],
+      [
+        "Apakah hatimu belum lelah menaruh harap pada janji manusia yang selalu berubah?",
+        40
+      ]
+    ]
+  }
+}

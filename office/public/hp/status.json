@@ -1,21 +1,19 @@
 {
-  "diperbarui": "2026-11-17T02:16:17.913Z",
+  "diperbarui": "2026-11-17T04:05:48.534Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
-    "llm": 1,
+    "llm": 4,
     "batas": 30
   },
-  "peringatan": [
-    "naskah: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
-  ],
+  "peringatan": [],
   "antrean": [
     {
       "id": "2026-W47-S4",
       "jenis": "short",
       "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "status": "lolos_dalil",
+      "label": "dalil lolos",
       "slot": "2026-11-23T05:30:00.000Z",
       "ytId": null
     },
@@ -23,40 +21,136 @@
       "id": "2026-W47-S3",
       "jenis": "short",
       "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "status": "lolos_dalil",
+      "label": "dalil lolos",
       "slot": "2026-11-22T12:30:00.000Z",
       "ytId": null
     },
     {
       "id": "2026-W47-S2",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-21T01:00:00.000Z",
-      "ytId": null
+      "ytId": "j8aZ7gNSyhM"
     },
     {
       "id": "2026-W47-S1",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Ujian Hidup Bukan Tanda Benci #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-18T11:30:00.000Z",
-      "ytId": null
+      "ytId": "06fRaslBVu0"
     },
     {
       "id": "2026-W47-U1",
       "jenis": "utama",
-      "judul": "Sabar dalam menghadapi ujian hidup",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-20T09:00:00.000Z",
-      "ytId": null
+      "ytId": "Vpzpe8jf3dY"
     }
   ],
   "log": [
+    {
+      "t": "2026-11-17T04:05:48.527Z",
+      "agen": "nadia",
+      "teks": "2026-W47-S2 terunggah (menunggu_persetujuan), tayang 2026-11-21T01:00:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T04:04:54.570Z",
+      "agen": "dika",
+      "teks": "render 2026-W47-S2 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T04:04:42.431Z",
+      "agen": "nadia",
+      "teks": "2026-W47-U1 terunggah (menunggu_persetujuan), tayang 2026-11-20T09:00:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T04:04:42.431Z",
+      "agen": "nadia",
+      "teks": "thumbnail gagal: thumbnail 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat (akun harus terverifikasi telepon)",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-17T04:01:30.733Z",
+      "agen": "dika",
+      "teks": "render 2026-W47-U1 (10 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T04:00:50.451Z",
+      "agen": "nadia",
+      "teks": "2026-W47-S1 terunggah (menunggu_persetujuan), tayang 2026-11-18T11:30:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T03:59:34.654Z",
+      "agen": "dika",
+      "teks": "render 2026-W47-S1 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T03:59:24.251Z",
+      "agen": "hasan",
+      "teks": "2026-W47-S4: dalil dibuang (tak terverifikasi): ibrahim:7",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-17T03:59:24.251Z",
+      "agen": "hasan",
+      "teks": "2026-W47-S3: dalil dibuang (tak terverifikasi): ar-rad:22",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-17T03:59:24.251Z",
+      "agen": "hasan",
+      "teks": "2026-W47-S2: dalil dibuang (tak terverifikasi): ali 'imran:200",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-17T03:59:24.250Z",
+      "agen": "hasan",
+      "teks": "2026-W47-S1: dalil dibuang (tak terverifikasi): al-baqarah:155",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-17T03:59:24.250Z",
+      "agen": "hasan",
+      "teks": "2026-W47-U1: dalil dibuang (tak terverifikasi): az-zumar:10",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-17T03:59:23.523Z",
+      "agen": "laila",
+      "teks": "4/4 naskah short",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T03:57:49.009Z",
+      "agen": "laila",
+      "teks": "naskah utama: \"Lelah Bersabar? Ini yang Sedang Disiapkan\"",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T03:57:07.127Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-17T02:16:17.913Z",
+      "agen": "tick",
+      "teks": "selesai dalam 137 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-17T02:16:17.912Z",
       "agen": "laila",

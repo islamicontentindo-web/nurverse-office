@@ -1,0 +1,69 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Ketenangan hatimu dipertaruhkan setiap kali kamu sibuk menghitung keberuntungan orang lain.",
+      "teks": [
+        "Ketenangan batin lenyap",
+        "saat sibuk membandingkan",
+        "ujianmu dengan orang lain"
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Rumput tetangga selalu terlihat lebih hijau hanya karena kamu belum tahu badai apa yang mereka lewati. Membandingkan nasib tidak akan pernah menyelesaikan masalah, justru hanya menambah racun dengki dan membutakan rasa syukur di dalam dada.",
+      "teks": [
+        "Setiap jiwa punya badai",
+        "yang tak pernah kamu tahu"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Fokuslah menyadari nikmat yang hari ini masih tersisa di tanganmu, bukan yang ada di tangan orang. Mulai sekarang, sebutkan tiga kebaikan kecil yang kamu syukuri hari ini, agar...",
+      "teks": [
+        "Sebutkan tiga kebaikan",
+        "yang kamu syukuri hari ini"
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Ketenangan hatimu dipertaruhkan setiap kali kamu sibuk menghitung keberuntungan orang lain.",
+  "judul": "Bahaya Membandingkan Ujian Hidup",
+  "thumb": "Ketenanganmu Sedang Dipertaruhkan",
+  "deskripsi": "Membandingkan ujian hidup dengan nikmat orang lain hanya merampas ketenangan jiwa. Rawat rasa syukur atas apa yang ada di tanganmu saat ini.",
+  "tag": [
+    "syukur",
+    "ketenanganhati",
+    "sabar",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [],
+  "hook_info": {
+    "teks": "Ketenangan hatimu dipertaruhkan setiap kali kamu sibuk menghitung keberuntungan orang lain.",
+    "skor": 40,
+    "panel": {
+      "spesifik": 26,
+      "menyapa": 96,
+      "taruhan": 22,
+      "penasaran": 24,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Ketenangan hatimu dipertaruhkan setiap kali kamu sibuk menghitung keberuntungan orang lain.",
+        40
+      ],
+      [
+        "Kamu pasti kehilangan seluruh ketenangan batinmu, jika terus membandingkan beratnya ujianmu dengan kemudahan hidup orang lain.",
+        38
+      ],
+      [
+        "Ingin tahu cara tercepat menghancurkan rasa bahagiamu? Coba bandingkan ujianmu dengan nikmat orang lain.",
+        33
+      ]
+    ]
+  }
+}

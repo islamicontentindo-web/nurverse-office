@@ -1,0 +1,49 @@
+{
+  "id": "2026-W47-S1",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Ujian Hidup Bukan Tanda Benci",
+  "thumb": "Ujian Bukan Tanda",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Merasa dijauhi saat masalah",
+        "datang bertubi-tubi?"
+      ],
+      "caption": true,
+      "narasi": "Kenapa ujian berat sering dianggap kutukan, padahal itu tanda kamu sedang diperhatikan?"
+    },
+    {
+      "i": 1,
+      "tipe": "renungan",
+      "motif": "arabesk",
+      "judul": "",
+      "teks": [
+        "Ujian bukan tanda benci,",
+        "tapi ruang bertumbuh",
+        "untuk menguatkan jiwa"
+      ],
+      "caption": true,
+      "narasi": "Padahal, menganggap ujian sebagai tanda kebencian adalah kekeliruan besar. Kesulitan bukan bukti bahwa kamu terlupakan. Lewat rasa cemas, kekurangan harta, atau hilangnya orang tercinta, Allah sebenarnya sedang membentuk hatimu agar semakin kokoh."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Basahi lisanmu",
+        "dengan istigfar hari ini"
+      ],
+      "caption": true,
+      "narasi": "Ujian adalah tanda bahwa kamu sedang diperhatikan dengan sangat dekat. Saat dada terasa sesak, luangkan waktu sejenak untuk membasahi lisanmu dengan istigfar, agar hatimu tidak lagi berpikir..."
+    }
+  ]
+}

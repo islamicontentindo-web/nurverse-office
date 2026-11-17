@@ -1,0 +1,72 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Kenapa ujian berat sering dianggap kutukan, padahal itu tanda kamu sedang diperhatikan?",
+      "teks": [
+        "Merasa dijauhi saat masalah",
+        "datang bertubi-tubi?"
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Padahal, menganggap ujian sebagai tanda kebencian adalah kekeliruan besar. Kesulitan bukan bukti bahwa kamu terlupakan. Lewat rasa cemas, kekurangan harta, atau hilangnya orang tercinta, Allah sebenarnya sedang membentuk hatimu agar semakin kokoh.",
+      "teks": [
+        "Ujian bukan tanda benci,",
+        "tapi ruang bertumbuh",
+        "untuk menguatkan jiwa"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Ujian adalah tanda bahwa kamu sedang diperhatikan dengan sangat dekat. Saat dada terasa sesak, luangkan waktu sejenak untuk membasahi lisanmu dengan istigfar, agar hatimu tidak lagi berpikir...",
+      "teks": [
+        "Basahi lisanmu",
+        "dengan istigfar hari ini"
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Kenapa ujian berat sering dianggap kutukan, padahal itu tanda kamu sedang diperhatikan?",
+  "judul": "Ujian Hidup Bukan Tanda Benci",
+  "thumb": "Ujian Bukan Tanda",
+  "deskripsi": "Ujian hidup bukan tanda kebencian, melainkan bentuk perhatian agar jiwa kita semakin tangguh. Temukan ketenangan dengan memandang masalah lewat sudut pandang iman.",
+  "tag": [
+    "sabar",
+    "ujianhidup",
+    "renunganislami",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 4 kata (maks 3)",
+    "teks thumbnail hanya mengulang judul"
+  ],
+  "hook_info": {
+    "teks": "Kenapa ujian berat sering dianggap kutukan, padahal itu tanda kamu sedang diperhatikan?",
+    "skor": 41,
+    "panel": {
+      "spesifik": 34,
+      "menyapa": 46,
+      "taruhan": 22,
+      "penasaran": 76,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Kenapa ujian berat sering dianggap kutukan, padahal itu tanda kamu sedang diperhatikan?",
+        41
+      ],
+      [
+        "Kamu salah besar jika mengira rasa lelah ini bukti Tuhan membencimu.",
+        38
+      ],
+      [
+        "Kamu sering mengira hidupmu sedang dijauhi, setiap kali masalah datang bertubi-tubi tanpa jeda.",
+        35
+      ]
+    ]
+  }
+}

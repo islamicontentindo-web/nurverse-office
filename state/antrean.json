@@ -2,7 +2,7 @@
   "items": [
     {
       "pekan": "2026-W47",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-U1",
@@ -16,11 +16,14 @@
           "az-zumar:10"
         ],
         "hadis": []
-      }
+      },
+      "detik": 144,
+      "ytId": "Vpzpe8jf3dY",
+      "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan"
     },
     {
       "pekan": "2026-W47",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S1",
@@ -34,11 +37,14 @@
           "al-baqarah:155"
         ],
         "hadis": []
-      }
+      },
+      "detik": 38,
+      "ytId": "06fRaslBVu0",
+      "judul": "Ujian Hidup Bukan Tanda Benci #Shorts"
     },
     {
       "pekan": "2026-W47",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S2",
@@ -52,11 +58,14 @@
           "ali 'imran:200"
         ],
         "hadis": []
-      }
+      },
+      "detik": 31,
+      "ytId": "j8aZ7gNSyhM",
+      "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts"
     },
     {
       "pekan": "2026-W47",
-      "status": "rencana",
+      "status": "lolos_dalil",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S3",
@@ -74,7 +83,7 @@
     },
     {
       "pekan": "2026-W47",
-      "status": "rencana",
+      "status": "lolos_dalil",
       "percobaan": 0,
       "dibuat": "2026-11-17T02:14:14.277Z",
       "id": "2026-W47-S4",

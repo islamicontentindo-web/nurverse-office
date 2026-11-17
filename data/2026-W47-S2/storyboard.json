@@ -1,0 +1,49 @@
+{
+  "id": "2026-W47-S2",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Menahan Lisan Saat Musibah Mendadak",
+  "thumb": "Kalah Telak Karena",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Kalah telak jika mengeluh",
+        "pada detik pertama musibah"
+      ],
+      "caption": true,
+      "narasi": "Bisakah kamu diam tiga detik saja saat kabar buruk mendadak tiba?"
+    },
+    {
+      "i": 1,
+      "tipe": "renungan",
+      "motif": "arabesk",
+      "judul": "",
+      "teks": [
+        "Sabar sejati ada",
+        "pada hentakan pertama,",
+        "bukan setelah reda"
+      ],
+      "caption": true,
+      "narasi": "Sabar yang bernilai tinggi bukan terjadi setelah badai mereda, melainkan pada benturan awal yang mengejutkan. Menahan lisan agar tidak mengumpat memang terasa sangat pahit, tetapi di titik itulah martabat imanmu diuji."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Beri jeda tiga detik",
+        "sebelum berucap"
+      ],
+      "caption": true,
+      "narasi": "Jangan biarkan emosi sesaat merusak pahala yang telah disiapkan untukmu. Mulai hari ini, biasakan jeda tiga detik sebelum berucap saat menghadapi kabar buruk, supaya..."
+    }
+  ]
+}

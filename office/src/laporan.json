@@ -18,11 +18,11 @@
     ]
   },
   "laila": {
-    "ringkasan": "0 naskah selesai.",
+    "ringkasan": "5 naskah selesai.",
     "angka": [
       {
         "label": "Panggilan LLM hari ini",
-        "nilai": "1/30"
+        "nilai": "4/30"
       }
     ]
   },
@@ -30,26 +30,31 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "0 terjadwal, 0 tayang.",
+    "ringkasan": "3 video menunggu persetujuanmu.",
+    "menunggu": [
+      "Setujui: Lelah Bersabar? Ini yang Sedang Disiapkan",
+      "Setujui: Ujian Hidup Bukan Tanda Benci #Shorts",
+      "Setujui: Menahan Lisan Saat Musibah Mendadak #Shorts"
+    ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "0 video"
+        "nilai": "3 video"
       }
     ]
   },
   "rafi": {
-    "ringkasan": "0 storyboard dibuat sesuai standar NURVERSE."
+    "ringkasan": "3 storyboard dibuat sesuai standar NURVERSE."
   },
   "salma": {
     "ringkasan": "Suara: id-ID-ArdiNeural. Ayat tidak dibacakan suara sintetis, hanya terjemahannya."
   },
   "dika": {
-    "ringkasan": "0 video sudah dirender.",
+    "ringkasan": "3 video sudah dirender.",
     "angka": [
       {
         "label": "Total render",
-        "nilai": "0 menit"
+        "nilai": "4 menit"
       }
     ]
   },
