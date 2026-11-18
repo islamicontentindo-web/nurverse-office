@@ -104,6 +104,96 @@
       "detik": 34,
       "ytId": "MUdahR9mtw4",
       "judul": "Bahaya Membandingkan Ujian Hidup #Shorts"
+    },
+    {
+      "pekan": "2026-W48",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-18T10:06:57.558Z",
+      "id": "2026-W48-U1",
+      "jenis": "utama",
+      "slot": "2026-11-27T09:00:00.000Z",
+      "topik": "Hakikat di balik kesabaran saat berat melanda",
+      "sudut": "Bagaimana ujian bukan tanda benci, melainkan cara rapi melatih jiwa",
+      "formula": "taruhan-kehilangan",
+      "dalil": {
+        "ayat": [
+          "al-baqarah:155"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W48",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-18T10:06:57.558Z",
+      "id": "2026-W48-S1",
+      "jenis": "short",
+      "slot": "2026-11-23T05:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Kesalahan umum mengira diam saat tertimpa musibah adalah kelemahan",
+      "formula": "kesalahan-umum",
+      "dalil": {
+        "ayat": [
+          "az-zumar:10"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W48",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-18T10:06:57.558Z",
+      "id": "2026-W48-S2",
+      "jenis": "short",
+      "slot": "2026-11-23T22:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Pertanyaan tentang apa yang sebenarnya tersisa saat genggaman lepas",
+      "formula": "pertanyaan-yang-tak-bisa-ditutup",
+      "dalil": {
+        "ayat": [
+          "ali-imran:200"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W48",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-18T10:06:57.558Z",
+      "id": "2026-W48-S3",
+      "jenis": "short",
+      "slot": "2026-11-25T11:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Pernyataan tegas tentang beban yang takkan melebihi pundak pemikulnya",
+      "formula": "pernyataan-tegas",
+      "dalil": {
+        "ayat": [
+          "al-baqarah:286"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W48",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-18T10:06:57.558Z",
+      "id": "2026-W48-S4",
+      "jenis": "short",
+      "slot": "2026-11-28T01:00:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Taruhan kehilangan ketenangan jika salah merespons jeda penantian",
+      "formula": "taruhan-kehilangan",
+      "dalil": {
+        "ayat": [
+          "ar-rad:24"
+        ],
+        "hadis": []
+      }
     }
   ]
 }
