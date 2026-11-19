@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-19T19:02:22.296Z",
+  "diperbarui": "2026-11-19T21:57:48.082Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -7,7 +7,7 @@
     "batas": 30
   },
   "peringatan": [
-    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    "naskah: semua penyedia LLM gagal: Expected ',' or ']' after array element in JSON at position 6911 | The operation was aborted due to timeout"
   ],
   "antrean": [
     {
@@ -102,6 +102,30 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-19T21:57:48.080Z",
+      "agen": "fikri",
+      "teks": "statistik 1 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T21:57:47.966Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: Expected ',' or ']' after array element in JSON at position 6911 | The operation was aborted due to timeout",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-19T21:54:24.329Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T19:02:22.297Z",
+      "agen": "tick",
+      "teks": "selesai dalam 13 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-19T19:02:22.294Z",
       "agen": "fikri",
@@ -224,30 +248,6 @@
     },
     {
       "t": "2026-11-19T07:35:55.425Z",
-      "agen": "tick",
-      "teks": "selesai dalam 240 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T07:35:55.423Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T07:35:55.317Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | The operation was aborted due to timeout",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-19T07:31:55.305Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T04:04:00.579Z",
       "agen": "tick",
       "teks": "selesai dalam 240 detik",
       "tingkat": "info"
