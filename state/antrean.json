@@ -107,7 +107,7 @@
     },
     {
       "pekan": "2026-W48",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-U1",
@@ -121,7 +121,10 @@
           "al-baqarah:155"
         ],
         "hadis": []
-      }
+      },
+      "detik": 151,
+      "ytId": "FJEGXw5gqfo",
+      "judul": "Mengapa Ujian Berat Menimpamu?"
     },
     {
       "pekan": "2026-W48",

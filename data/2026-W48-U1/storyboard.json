@@ -1,0 +1,142 @@
+{
+  "id": "2026-W48-U1",
+  "jenis": "utama",
+  "ukuran": [
+    1920,
+    1080
+  ],
+  "judul": "Mengapa Ujian Berat Menimpamu?",
+  "thumb": "Bukan Tanda Benci",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Ketika beban terasa menekan",
+        "Jangan kehilangan keyakinan",
+        "Bahwa kamu tetap dijaga"
+      ],
+      "caption": true,
+      "narasi": "Kamu bisa kehilangan ketenangan batin dalam sekejap jika salah mengartikan badai yang sedang kamu lewati."
+    },
+    {
+      "i": 1,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "judul": "",
+      "teks": [
+        "Lelah yang teramat sunyi",
+        "Pintu keluar belum tampak",
+        "Bukan berarti kamu diabaikan"
+      ],
+      "caption": true,
+      "narasi": "Pernahkah kamu merasa lelah yang teramat sunyi? Saat doa-doa terpanjat pelan di keheningan, tetapi pintu keluar seolah belum juga terbuka. Di titik itu, pikiran sering membisikkan keraguan, mengira bahwa kesulitan ini adalah bukti bahwa langkahmu diabaikan."
+    },
+    {
+      "i": 2,
+      "tipe": "poin",
+      "motif": "kubah",
+      "judul": "Bukan Bentuk Kemurkaan",
+      "teks": [
+        "Ujian bukan tanda kemurkaan",
+        "Datang silih berganti",
+        "Tempat jiwa belajar bertumbuh"
+      ],
+      "caption": true,
+      "narasi": "Kesulitan bukanlah tanda kemarahan. Rasa takut, kekurangan, atau kehilangan adalah ketetapan yang datang silih berganti pada siapa saja. Ujian dihadirkan bukan untuk meremukkan langkahmu, melainkan menjadi penanda bahwa perjalanan hidup ini memang tempat untuk belajar dan bertumbuh."
+    },
+    {
+      "i": 3,
+      "tipe": "poin",
+      "motif": "arabesk",
+      "judul": "Mengikis Tempat Bersandar yang Keliru",
+      "teks": [
+        "Sandaran duniawi yang rapuh",
+        "Mengarahkan kembali pandangan",
+        "Pada perlindungan yang sejati"
+      ],
+      "caption": true,
+      "narasi": "Terkadang, rasa sakit sengaja singgah untuk mengingatkan ke mana hati seharusnya bersandar. Ketika semua sandaran duniawi mendadak rapuh dan tak berdaya, saat itulah jiwamu diarahkan kembali pada satu-satunya perlindungan yang tak pernah goyah."
+    },
+    {
+      "i": 4,
+      "tipe": "renungan",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Tempaan di balik rasa perih",
+        "Membersihkan kotoran hati",
+        "Melahirkan keteguhan sejati"
+      ],
+      "caption": true,
+      "narasi": "Ibarat logam mentah yang harus melewati panas membara agar terpisah dari kotoran, batinmu juga butuh tempaan. Tanpa rasa perih, keteguhan hati hanyalah angan. Rasa sakit adalah cara sunyi yang merapikan caramu memandang dunia."
+    },
+    {
+      "i": 5,
+      "tipe": "poin",
+      "motif": "gelombang",
+      "judul": "Sabar yang Menghidupkan",
+      "teks": [
+        "Sabar bukan kepasrahan pasif",
+        "Menahan keluhan dan amarah",
+        "Tetap memilih kebaikan"
+      ],
+      "caption": true,
+      "narasi": "Sabar bukanlah diam tanpa daya atau pasrah yang melemahkan. Sabar adalah keputusan sadar untuk menahan keluhan, menepis amarah, dan terus memilih kebaikan meski langkah terasa teramat berat di tengah jalan."
+    },
+    {
+      "i": 6,
+      "tipe": "renungan",
+      "motif": "cahaya",
+      "judul": "",
+      "teks": [
+        "Menatap luka masa lalu",
+        "Menjadi pribadi yang lebih teduh",
+        "Memahami arti kelembutan"
+      ],
+      "caption": true,
+      "narasi": "Tataplah kembali lembaran harimu yang paling kelam. Bukankah dari luka-luka itulah kamu belajar menjadi pribadi yang lebih teduh, lebih memahami arti kepedihan orang lain, dan lebih rendah hati dalam setiap langkah?"
+    },
+    {
+      "i": 7,
+      "tipe": "poin",
+      "motif": "bulan",
+      "judul": "Kabar Baik di Ujung Jalan",
+      "teks": [
+        "Kabar baik menanti di ujung",
+        "Dada yang semakin lapang",
+        "Ketenangan yang tak ternilai"
+      ],
+      "caption": true,
+      "narasi": "Di balik setiap kesabaran yang kamu jaga, ada kabar baik yang sedang dipersiapkan. Hadiah itu tidak selalu berupa hilangnya masalah seketika, melainkan hadirnya dada yang lapang dan ketenangan yang tak bisa dibeli dengan apa pun."
+    },
+    {
+      "i": 8,
+      "tipe": "poin",
+      "motif": "kubah",
+      "judul": "Melatih Batin Menunduk Tenang",
+      "teks": [
+        "Ambil jeda sejenak",
+        "Badai memiliki batas waktu",
+        "Jiwamu dibentuk lebih kuat"
+      ],
+      "caption": true,
+      "narasi": "Saat rasa sesak kembali datang, jangan terburu-buru mempertanyakan ketetapan. Ambil jeda sejenak, tarik napas dalam, dan sadari bahwa badai ini memiliki batas waktu. Jiwamu sedang dibentuk menjadi lebih kuat dari yang kamu kira."
+    },
+    {
+      "i": 9,
+      "tipe": "penutup",
+      "motif": "arabesk",
+      "judul": "",
+      "teks": [
+        "Kamu tidak berjalan sendirian",
+        "Setiap sabarmu dicatat rapi",
+        "Simpan pengingat ini di hatimu"
+      ],
+      "caption": true,
+      "narasi": "Kamu tidak pernah dibiarkan berjalan sendirian dalam kepedihan ini. Setiap tarikan napas beratmu dihargai, dan setiap sabarmu dicatat rapi. Simpan video ini agar kamu bisa membukanya kembali saat langkahmu mulai terasa goyah."
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
-  "diperbarui": "2026-11-19T07:35:55.424Z",
+  "diperbarui": "2026-11-19T10:24:01.202Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
-    "llm": 0,
+    "llm": 2,
     "batas": 30
   },
   "peringatan": [
-    "naskah: semua penyedia LLM gagal: The operation was aborted due to timeout | The operation was aborted due to timeout"
+    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout"
   ],
   "antrean": [
     {
@@ -49,11 +49,11 @@
     {
       "id": "2026-W48-U1",
       "jenis": "utama",
-      "judul": "Hakikat di balik kesabaran saat berat melanda",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Mengapa Ujian Berat Menimpamu?",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-27T09:00:00.000Z",
-      "ytId": null
+      "ytId": "FJEGXw5gqfo"
     },
     {
       "id": "2026-W47-S4",
@@ -102,6 +102,60 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-19T10:24:01.200Z",
+      "agen": "fikri",
+      "teks": "statistik 1 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T10:24:00.875Z",
+      "agen": "nadia",
+      "teks": "2026-W48-U1 terunggah (menunggu_persetujuan), tayang 2026-11-27T09:00:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T10:24:00.874Z",
+      "agen": "nadia",
+      "teks": "thumbnail gagal: thumbnail 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat (akun harus terverifikasi telepon)",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-19T10:19:48.704Z",
+      "agen": "dika",
+      "teks": "render 2026-W48-U1 (10 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T10:18:38.551Z",
+      "agen": "hasan",
+      "teks": "2026-W48-U1: dalil dibuang (tak terverifikasi): al-baqarah:155",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-19T10:18:37.324Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-19T10:16:18.491Z",
+      "agen": "laila",
+      "teks": "naskah utama: \"Mengapa Ujian Berat Menimpamu?\"",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T10:14:20.595Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T07:35:55.425Z",
+      "agen": "tick",
+      "teks": "selesai dalam 240 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-19T07:35:55.423Z",
       "agen": "fikri",
@@ -196,60 +250,6 @@
       "t": "2026-11-18T19:00:54.728Z",
       "agen": "tick",
       "teks": "selesai dalam 123 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T19:00:54.725Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T19:00:54.546Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-18T18:58:51.859Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T16:27:20.088Z",
-      "agen": "tick",
-      "teks": "selesai dalam 139 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T16:27:20.087Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T16:27:19.976Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-18T16:25:01.098Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T13:33:35.952Z",
-      "agen": "tick",
-      "teks": "selesai dalam 27 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-18T13:33:35.951Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
       "tingkat": "info"
     }
   ]
