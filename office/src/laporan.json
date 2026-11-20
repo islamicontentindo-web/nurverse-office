@@ -18,11 +18,11 @@
     ]
   },
   "laila": {
-    "ringkasan": "6 naskah selesai.",
+    "ringkasan": "10 naskah selesai.",
     "angka": [
       {
         "label": "Panggilan LLM hari ini",
-        "nilai": "0/30"
+        "nilai": "2/30"
       }
     ]
   },
@@ -30,29 +30,32 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "1 video menunggu persetujuanmu.",
+    "ringkasan": "4 video menunggu persetujuanmu.",
     "menunggu": [
-      "Setujui: Mengapa Ujian Berat Menimpamu?"
+      "Setujui: Mengapa Ujian Berat Menimpamu?",
+      "Setujui: Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts",
+      "Setujui: Saat Semua Genggaman Terlepas Paksa #Shorts",
+      "Setujui: Bebanmu Tidak Pernah Salah Alamat #Shorts"
     ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "1 video"
+        "nilai": "4 video"
       }
     ]
   },
   "rafi": {
-    "ringkasan": "6 storyboard dibuat sesuai standar NURVERSE."
+    "ringkasan": "9 storyboard dibuat sesuai standar NURVERSE."
   },
   "salma": {
     "ringkasan": "Suara: id-ID-ArdiNeural. Ayat tidak dibacakan suara sintetis, hanya terjemahannya."
   },
   "dika": {
-    "ringkasan": "6 video sudah dirender.",
+    "ringkasan": "9 video sudah dirender.",
     "angka": [
       {
         "label": "Total render",
-        "nilai": "7 menit"
+        "nilai": "9 menit"
       }
     ]
   },

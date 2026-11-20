@@ -1,0 +1,48 @@
+{
+  "id": "2026-W48-S3",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Bebanmu Tidak Pernah Salah Alamat",
+  "thumb": "Grafis simetris tentang",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "kubah",
+      "judul": "",
+      "teks": [
+        "Pundakmu tidak dipilih",
+        "Secara kebetulan"
+      ],
+      "caption": true,
+      "narasi": "Kamu terpilih memikul ujian ini bukan tanpa alasan yang pasti."
+    },
+    {
+      "i": 1,
+      "tipe": "poin",
+      "motif": "gelombang",
+      "judul": "Kapasitas Jiwamu",
+      "teks": [
+        "Ujian hadir bukan untuk meremukkan",
+        "Jiwamu lebih lapang dari dugaanmu"
+      ],
+      "caption": true,
+      "narasi": "Rasa lelahmu sangat nyata, dan air matamu bukan tanda kegagalan. Ujian berat ini datang bukan untuk menghancurkan hidupmu, melainkan menjadi bukti bahwa kapasitas jiwamu jauh lebih lapang dari yang kamu kira. Jangan pernah merasa tertinggal sendirian dalam kepedihan ini."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "arabesk",
+      "judul": "",
+      "teks": [
+        "Bernapaslah perlahan",
+        "Serahkan segala cemas"
+      ],
+      "caption": true,
+      "narasi": "Ketetapan-Nya selalu adil dan terukur dengan sangat sempurna. Mari bernapas perlahan dan serahkan cemasmu, karena sungguh..."
+    }
+  ]
+}

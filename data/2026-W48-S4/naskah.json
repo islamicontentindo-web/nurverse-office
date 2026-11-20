@@ -1,0 +1,72 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Ketenangan hatimu akan habis jika kamu terus memusuhi waktu tunggu.",
+      "teks": [
+        "Jangan pertaruhkan ketenangan",
+        "Saat berada di ruang tunggu"
+      ],
+      "motif": "bulan"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Menempa Ketabahan",
+      "narasi": "Menunggu memang melelahkan, tetapi gelisah dan terburu-buru hanya akan menguras kedamaian hatimu sendiri. Ruang tunggu ini bukan penolakan, melainkan tempat terbaik untuk memurnikan niat dan menempa ketabahan. Jika kamu melewatinya dengan syukur, keselamatan abadi sedang menyambutmu di ujung jalan.",
+      "teks": [
+        "Jeda bukan penolakan",
+        "Ia tempat menempa ketabahan"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Salam damai telah disiapkan untuk mereka yang setia bertahan. Mari ikhlaskan proses penantian ini sekarang, daripada...",
+      "teks": [
+        "Ikhlaskan proses penantian",
+        "Damai menanti yang bertahan"
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Ketenangan hatimu akan habis jika kamu terus memusuhi waktu tunggu.",
+  "judul": "Bahaya Kehilangan Damai di Ruang Tunggu",
+  "thumb": "Visual abstrak lorong",
+  "deskripsi": "Mengapa mengutuk waktu tunggu hanya merusak kedamaian diri. Belajarlah berdamai dengan jeda takdir.",
+  "tag": [
+    "sabar",
+    "ruangtunggu",
+    "ketenangan",
+    "keikhlasan",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 7 kata (maks 3)"
+  ],
+  "hook_info": {
+    "teks": "Ketenangan hatimu akan habis jika kamu terus memusuhi waktu tunggu.",
+    "skor": 41,
+    "panel": {
+      "spesifik": 34,
+      "menyapa": 96,
+      "taruhan": 22,
+      "penasaran": 24,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Ketenangan hatimu akan habis jika kamu terus memusuhi waktu tunggu.",
+        41
+      ],
+      [
+        "Jangan gadaikan kedamaianmu hanya karena doa belum lekas terwujud.",
+        39
+      ],
+      [
+        "Kamu mempertaruhkan seluruh ketenangan batinmu jika terus mengutuk jeda panjang yang belum terjawab.",
+        38
+      ]
+    ]
+  }
+}

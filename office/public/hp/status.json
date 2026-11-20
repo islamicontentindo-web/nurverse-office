@@ -1,50 +1,48 @@
 {
-  "diperbarui": "2026-11-19T21:57:48.082Z",
+  "diperbarui": "2026-11-20T01:13:23.079Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
-    "llm": 0,
+    "llm": 2,
     "batas": 30
   },
-  "peringatan": [
-    "naskah: semua penyedia LLM gagal: Expected ',' or ']' after array element in JSON at position 6911 | The operation was aborted due to timeout"
-  ],
+  "peringatan": [],
   "antrean": [
     {
       "id": "2026-W48-S4",
       "jenis": "short",
       "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "status": "lolos_dalil",
+      "label": "dalil lolos",
       "slot": "2026-11-28T01:00:00.000Z",
       "ytId": null
     },
     {
       "id": "2026-W48-S3",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Bebanmu Tidak Pernah Salah Alamat #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-25T11:30:00.000Z",
-      "ytId": null
+      "ytId": "W3itLZA88KY"
     },
     {
       "id": "2026-W48-S2",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Saat Semua Genggaman Terlepas Paksa #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-23T22:30:00.000Z",
-      "ytId": null
+      "ytId": "T1IKyDExUjY"
     },
     {
       "id": "2026-W48-S1",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-23T05:30:00.000Z",
-      "ytId": null
+      "ytId": "rpl1sa5JEOY"
     },
     {
       "id": "2026-W48-U1",
@@ -102,6 +100,90 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-20T01:13:23.077Z",
+      "agen": "fikri",
+      "teks": "statistik 1 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:13:22.979Z",
+      "agen": "nadia",
+      "teks": "2026-W48-S3 terunggah (menunggu_persetujuan), tayang 2026-11-25T11:30:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:12:16.114Z",
+      "agen": "dika",
+      "teks": "render 2026-W48-S3 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:12:02.125Z",
+      "agen": "nadia",
+      "teks": "2026-W48-S2 terunggah (menunggu_persetujuan), tayang 2026-11-23T22:30:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:10:40.665Z",
+      "agen": "dika",
+      "teks": "render 2026-W48-S2 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:10:24.300Z",
+      "agen": "nadia",
+      "teks": "2026-W48-S1 terunggah (menunggu_persetujuan), tayang 2026-11-23T05:30:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:09:12.239Z",
+      "agen": "dika",
+      "teks": "render 2026-W48-S1 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:08:55.397Z",
+      "agen": "hasan",
+      "teks": "2026-W48-S4: dalil dibuang (tak terverifikasi): ar-rad:24",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-20T01:08:55.396Z",
+      "agen": "hasan",
+      "teks": "2026-W48-S3: dalil dibuang (tak terverifikasi): al-baqarah:286",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-20T01:08:55.396Z",
+      "agen": "hasan",
+      "teks": "2026-W48-S2: dalil dibuang (tak terverifikasi): ali-imran:200",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-20T01:08:55.395Z",
+      "agen": "hasan",
+      "teks": "2026-W48-S1: dalil dibuang (tak terverifikasi): az-zumar:10",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-20T01:08:50.843Z",
+      "agen": "laila",
+      "teks": "4/4 naskah short",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:07:19.897Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-19T21:57:48.083Z",
+      "agen": "tick",
+      "teks": "selesai dalam 204 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-19T21:57:48.080Z",
       "agen": "fikri",
@@ -166,90 +248,6 @@
       "t": "2026-11-19T16:03:04.860Z",
       "agen": "tick",
       "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T13:22:01.044Z",
-      "agen": "tick",
-      "teks": "selesai dalam 130 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T13:22:01.041Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T13:22:00.914Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-19T13:19:50.718Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T10:24:01.202Z",
-      "agen": "tick",
-      "teks": "selesai dalam 581 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T10:24:01.200Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T10:24:00.875Z",
-      "agen": "nadia",
-      "teks": "2026-W48-U1 terunggah (menunggu_persetujuan), tayang 2026-11-27T09:00:00.000Z",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T10:24:00.874Z",
-      "agen": "nadia",
-      "teks": "thumbnail gagal: thumbnail 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat (akun harus terverifikasi telepon)",
-      "tingkat": "peringatan"
-    },
-    {
-      "t": "2026-11-19T10:19:48.704Z",
-      "agen": "dika",
-      "teks": "render 2026-W48-U1 (10 adegan)…",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T10:18:38.551Z",
-      "agen": "hasan",
-      "teks": "2026-W48-U1: dalil dibuang (tak terverifikasi): al-baqarah:155",
-      "tingkat": "peringatan"
-    },
-    {
-      "t": "2026-11-19T10:18:37.324Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-19T10:16:18.491Z",
-      "agen": "laila",
-      "teks": "naskah utama: \"Mengapa Ujian Berat Menimpamu?\"",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T10:14:20.595Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T07:35:55.425Z",
-      "agen": "tick",
-      "teks": "selesai dalam 240 detik",
       "tingkat": "info"
     }
   ]

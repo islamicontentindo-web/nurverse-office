@@ -1,0 +1,48 @@
+{
+  "id": "2026-W48-S1",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam",
+  "thumb": "Tipografi elegan tentang",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "gelombang",
+      "judul": "",
+      "teks": [
+        "Diam bukan tanda kelemahan",
+        "Saat luka datang menyapa"
+      ],
+      "caption": true,
+      "narasi": "Mengapa kamu menganggap orang yang memilih diam saat disakiti itu kalah?"
+    },
+    {
+      "i": 1,
+      "tipe": "poin",
+      "motif": "arabesk",
+      "judul": "Kekuatan Mengendalikan Diri",
+      "teks": [
+        "Menahan amarah di dada",
+        "Adalah ketangguhan jiwa yang sejati"
+      ],
+      "caption": true,
+      "narasi": "Padahal menahan diri untuk tidak membalas butuh keberanian yang luar biasa. Banyak orang mengira kamu menyerah, padahal kamu sedang mengendalikan badai di dalam dada. Mengunci amarah agar tidak merusak segalanya justru merupakan ketangguhan jiwa yang sejati."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Mari heningkan hati",
+        "Rawat kesabaran dalam jiwa"
+      ],
+      "caption": true,
+      "narasi": "Balasan bagi keteguhanmu disiapkan tanpa batas hitungan. Mari heningkan hatimu dan rawat kesabaran itu saat ujian datang, sebab..."
+    }
+  ]
+}

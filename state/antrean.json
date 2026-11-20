@@ -128,7 +128,7 @@
     },
     {
       "pekan": "2026-W48",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S1",
@@ -142,11 +142,14 @@
           "az-zumar:10"
         ],
         "hadis": []
-      }
+      },
+      "detik": 32,
+      "ytId": "rpl1sa5JEOY",
+      "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts"
     },
     {
       "pekan": "2026-W48",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S2",
@@ -160,11 +163,14 @@
           "ali-imran:200"
         ],
         "hadis": []
-      }
+      },
+      "detik": 36,
+      "ytId": "T1IKyDExUjY",
+      "judul": "Saat Semua Genggaman Terlepas Paksa #Shorts"
     },
     {
       "pekan": "2026-W48",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S3",
@@ -178,11 +184,14 @@
           "al-baqarah:286"
         ],
         "hadis": []
-      }
+      },
+      "detik": 33,
+      "ytId": "W3itLZA88KY",
+      "judul": "Bebanmu Tidak Pernah Salah Alamat #Shorts"
     },
     {
       "pekan": "2026-W48",
-      "status": "rencana",
+      "status": "lolos_dalil",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S4",

@@ -1,0 +1,72 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Pernahkah kamu bertanya-tanya, apa yang sebenarnya tersisa saat semua genggaman tanganmu terlepas paksa?",
+      "teks": [
+        "Apa yang tersisa",
+        "Saat genggaman terlepas paksa?"
+      ],
+      "motif": "bulan"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Pijakan yang Kokoh",
+      "narasi": "Ketika rencana pupus dan sandaran duniawi menjauh, kamu merasa kehilangan segalanya. Namun di titik itulah kesabaranmu diuji: apakah kamu akan runtuh, atau justru menemukan pijakan yang paling kokoh di hadapan-Nya? Bertahanlah, kuatkan kesabaranmu melebihi rasa sakit itu.",
+      "teks": [
+        "Temukan pijakan kokoh",
+        "Kuatkan sabar melebihi rasa sakit"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Kemenangan sejati selalu menanti mereka yang terus bersiap teguh. Mari perkokoh langkahmu sekarang juga, sebelum kamu kembali bingung memikirkan...",
+      "teks": [
+        "Mari perkokoh langkah",
+        "Menuju kemenangan sejati"
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Pernahkah kamu bertanya-tanya, apa yang sebenarnya tersisa saat semua genggaman tanganmu terlepas paksa?",
+  "judul": "Saat Semua Genggaman Terlepas Paksa",
+  "thumb": "Visual minimalis pelepasan",
+  "deskripsi": "Renungan tentang apa yang tersisa ketika sandaran duniawi menjauh. Temukan keteguhan di saat kehilangan.",
+  "tag": [
+    "sabar",
+    "kehilangan",
+    "pengingatdiri",
+    "tawakal",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 6 kata (maks 3)"
+  ],
+  "hook_info": {
+    "teks": "Pernahkah kamu bertanya-tanya, apa yang sebenarnya tersisa saat semua genggaman tanganmu terlepas paksa?",
+    "skor": 43,
+    "panel": {
+      "spesifik": 34,
+      "menyapa": 76,
+      "taruhan": 22,
+      "penasaran": 59,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Pernahkah kamu bertanya-tanya, apa yang sebenarnya tersisa saat semua genggaman tanganmu terlepas paksa?",
+        43
+      ],
+      [
+        "Ke mana hatimu bersandar ketika genggaman dunia perlahan sirna?",
+        40
+      ],
+      [
+        "Saat semua hal terlepas dari tanganmu, apa lagi yang bisa kamu andalkan?",
+        39
+      ]
+    ]
+  }
+}

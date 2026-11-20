@@ -1,0 +1,48 @@
+{
+  "id": "2026-W48-S2",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Saat Semua Genggaman Terlepas Paksa",
+  "thumb": "Visual minimalis pelepasan",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "judul": "",
+      "teks": [
+        "Apa yang tersisa",
+        "Saat genggaman terlepas paksa?"
+      ],
+      "caption": true,
+      "narasi": "Pernahkah kamu bertanya-tanya, apa yang sebenarnya tersisa saat semua genggaman tanganmu terlepas paksa?"
+    },
+    {
+      "i": 1,
+      "tipe": "poin",
+      "motif": "arabesk",
+      "judul": "Pijakan yang Kokoh",
+      "teks": [
+        "Temukan pijakan kokoh",
+        "Kuatkan sabar melebihi rasa sakit"
+      ],
+      "caption": true,
+      "narasi": "Ketika rencana pupus dan sandaran duniawi menjauh, kamu merasa kehilangan segalanya. Namun di titik itulah kesabaranmu diuji: apakah kamu akan runtuh, atau justru menemukan pijakan yang paling kokoh di hadapan-Nya? Bertahanlah, kuatkan kesabaranmu melebihi rasa sakit itu."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Mari perkokoh langkah",
+        "Menuju kemenangan sejati"
+      ],
+      "caption": true,
+      "narasi": "Kemenangan sejati selalu menanti mereka yang terus bersiap teguh. Mari perkokoh langkahmu sekarang juga, sebelum kamu kembali bingung memikirkan..."
+    }
+  ]
+}

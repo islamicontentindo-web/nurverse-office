@@ -1,0 +1,72 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Mengapa kamu menganggap orang yang memilih diam saat disakiti itu kalah?",
+      "teks": [
+        "Diam bukan tanda kelemahan",
+        "Saat luka datang menyapa"
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Kekuatan Mengendalikan Diri",
+      "narasi": "Padahal menahan diri untuk tidak membalas butuh keberanian yang luar biasa. Banyak orang mengira kamu menyerah, padahal kamu sedang mengendalikan badai di dalam dada. Mengunci amarah agar tidak merusak segalanya justru merupakan ketangguhan jiwa yang sejati.",
+      "teks": [
+        "Menahan amarah di dada",
+        "Adalah ketangguhan jiwa yang sejati"
+      ],
+      "motif": "arabesk"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Balasan bagi keteguhanmu disiapkan tanpa batas hitungan. Mari heningkan hatimu dan rawat kesabaran itu saat ujian datang, sebab...",
+      "teks": [
+        "Mari heningkan hati",
+        "Rawat kesabaran dalam jiwa"
+      ],
+      "motif": "bintang"
+    }
+  ],
+  "hook": "Mengapa kamu menganggap orang yang memilih diam saat disakiti itu kalah?",
+  "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam",
+  "thumb": "Tipografi elegan tentang",
+  "deskripsi": "Mengapa diam saat menghadapi ujian bukanlah tanda menyerah. Ketahui hakikat kekuatan sabar yang sesungguhnya.",
+  "tag": [
+    "sabar",
+    "ujianhidup",
+    "ketenanganhati",
+    "muhasabah",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 6 kata (maks 3)"
+  ],
+  "hook_info": {
+    "teks": "Mengapa kamu menganggap orang yang memilih diam saat disakiti itu kalah?",
+    "skor": 43,
+    "panel": {
+      "spesifik": 34,
+      "menyapa": 76,
+      "taruhan": 22,
+      "penasaran": 59,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Mengapa kamu menganggap orang yang memilih diam saat disakiti itu kalah?",
+        43
+      ],
+      [
+        "Kamu sering keliru mengira sikap diam saat tertimpa luka adalah tanda kelemahan.",
+        38
+      ],
+      [
+        "Jangan salah sangka, diammu saat diuji justru bukti kekuatan terbesar.",
+        36
+      ]
+    ]
+  }
+}

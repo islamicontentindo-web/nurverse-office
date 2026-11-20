@@ -1,0 +1,72 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Kamu terpilih memikul ujian ini bukan tanpa alasan yang pasti.",
+      "teks": [
+        "Pundakmu tidak dipilih",
+        "Secara kebetulan"
+      ],
+      "motif": "kubah"
+    },
+    {
+      "jenis": "poin",
+      "judul": "Kapasitas Jiwamu",
+      "narasi": "Rasa lelahmu sangat nyata, dan air matamu bukan tanda kegagalan. Ujian berat ini datang bukan untuk menghancurkan hidupmu, melainkan menjadi bukti bahwa kapasitas jiwamu jauh lebih lapang dari yang kamu kira. Jangan pernah merasa tertinggal sendirian dalam kepedihan ini.",
+      "teks": [
+        "Ujian hadir bukan untuk meremukkan",
+        "Jiwamu lebih lapang dari dugaanmu"
+      ],
+      "motif": "gelombang"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Ketetapan-Nya selalu adil dan terukur dengan sangat sempurna. Mari bernapas perlahan dan serahkan cemasmu, karena sungguh...",
+      "teks": [
+        "Bernapaslah perlahan",
+        "Serahkan segala cemas"
+      ],
+      "motif": "arabesk"
+    }
+  ],
+  "hook": "Kamu terpilih memikul ujian ini bukan tanpa alasan yang pasti.",
+  "judul": "Bebanmu Tidak Pernah Salah Alamat",
+  "thumb": "Grafis simetris tentang",
+  "deskripsi": "Pengingat bahwa setiap ujian ditakar sesuai kemampuan pundakmu. Kuatkan hati dalam melangkah.",
+  "tag": [
+    "sabar",
+    "bebanhidup",
+    "keteguhan",
+    "nasihatdiri",
+    "nurverse"
+  ],
+  "kueri": [],
+  "masalah_paket": [
+    "thumbnail 8 kata (maks 3)"
+  ],
+  "hook_info": {
+    "teks": "Kamu terpilih memikul ujian ini bukan tanpa alasan yang pasti.",
+    "skor": 39,
+    "panel": {
+      "spesifik": 26,
+      "menyapa": 76,
+      "taruhan": 22,
+      "penasaran": 41,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Kamu terpilih memikul ujian ini bukan tanpa alasan yang pasti.",
+        39
+      ],
+      [
+        "Beban berat itu tidak salah alamat mampir ke hidupmu.",
+        32
+      ],
+      [
+        "Pundakmu tidak pernah dipilih secara kebetulan untuk memikul beban yang sedang menghimpitmu hari ini.",
+        31
+      ]
+    ]
+  }
+}
