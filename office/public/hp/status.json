@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-20T01:13:23.079Z",
+  "diperbarui": "2026-11-20T03:58:40.825Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -11,11 +11,11 @@
     {
       "id": "2026-W48-S4",
       "jenis": "short",
-      "judul": "Sabar dalam ujian",
-      "status": "lolos_dalil",
-      "label": "dalil lolos",
+      "judul": "Bahaya Kehilangan Damai di Ruang Tunggu #Shorts",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-11-28T01:00:00.000Z",
-      "ytId": null
+      "ytId": "H5ZmV3uCIkg"
     },
     {
       "id": "2026-W48-S3",
@@ -100,6 +100,36 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-20T03:58:40.823Z",
+      "agen": "fikri",
+      "teks": "statistik 1 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T03:58:40.684Z",
+      "agen": "nadia",
+      "teks": "2026-W48-S4 terunggah (menunggu_persetujuan), tayang 2026-11-28T01:00:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T03:57:07.279Z",
+      "agen": "dika",
+      "teks": "render 2026-W48-S4 (3 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T03:56:56.503Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-20T01:13:23.079Z",
+      "agen": "tick",
+      "teks": "selesai dalam 363 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-20T01:13:23.077Z",
       "agen": "fikri",
@@ -219,36 +249,6 @@
       "agen": "laila",
       "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
       "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-19T19:02:09.703Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T16:05:05.595Z",
-      "agen": "tick",
-      "teks": "selesai dalam 121 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T16:05:05.592Z",
-      "agen": "fikri",
-      "teks": "statistik 1 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-19T16:05:05.464Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-19T16:03:04.860Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
     }
   ]
 }

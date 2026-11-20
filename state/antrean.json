@@ -191,7 +191,7 @@
     },
     {
       "pekan": "2026-W48",
-      "status": "lolos_dalil",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S4",
@@ -205,7 +205,10 @@
           "ar-rad:24"
         ],
         "hadis": []
-      }
+      },
+      "detik": 34,
+      "ytId": "H5ZmV3uCIkg",
+      "judul": "Bahaya Kehilangan Damai di Ruang Tunggu #Shorts"
     }
   ]
 }

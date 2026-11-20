@@ -1,0 +1,48 @@
+{
+  "id": "2026-W48-S4",
+  "jenis": "short",
+  "ukuran": [
+    1080,
+    1920
+  ],
+  "judul": "Bahaya Kehilangan Damai di Ruang Tunggu",
+  "thumb": "Visual abstrak lorong",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "judul": "",
+      "teks": [
+        "Jangan pertaruhkan ketenangan",
+        "Saat berada di ruang tunggu"
+      ],
+      "caption": true,
+      "narasi": "Ketenangan hatimu akan habis jika kamu terus memusuhi waktu tunggu."
+    },
+    {
+      "i": 1,
+      "tipe": "poin",
+      "motif": "arabesk",
+      "judul": "Menempa Ketabahan",
+      "teks": [
+        "Jeda bukan penolakan",
+        "Ia tempat menempa ketabahan"
+      ],
+      "caption": true,
+      "narasi": "Menunggu memang melelahkan, tetapi gelisah dan terburu-buru hanya akan menguras kedamaian hatimu sendiri. Ruang tunggu ini bukan penolakan, melainkan tempat terbaik untuk memurnikan niat dan menempa ketabahan. Jika kamu melewatinya dengan syukur, keselamatan abadi sedang menyambutmu di ujung jalan."
+    },
+    {
+      "i": 2,
+      "tipe": "penutup",
+      "motif": "bintang",
+      "judul": "",
+      "teks": [
+        "Ikhlaskan proses penantian",
+        "Damai menanti yang bertahan"
+      ],
+      "caption": true,
+      "narasi": "Salam damai telah disiapkan untuk mereka yang setia bertahan. Mari ikhlaskan proses penantian ini sekarang, daripada..."
+    }
+  ]
+}

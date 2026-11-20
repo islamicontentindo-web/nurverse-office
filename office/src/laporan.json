@@ -30,28 +30,29 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "4 video menunggu persetujuanmu.",
+    "ringkasan": "5 video menunggu persetujuanmu.",
     "menunggu": [
       "Setujui: Mengapa Ujian Berat Menimpamu?",
       "Setujui: Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts",
       "Setujui: Saat Semua Genggaman Terlepas Paksa #Shorts",
-      "Setujui: Bebanmu Tidak Pernah Salah Alamat #Shorts"
+      "Setujui: Bebanmu Tidak Pernah Salah Alamat #Shorts",
+      "Setujui: Bahaya Kehilangan Damai di Ruang Tunggu #Shorts"
     ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "4 video"
+        "nilai": "5 video"
       }
     ]
   },
   "rafi": {
-    "ringkasan": "9 storyboard dibuat sesuai standar NURVERSE."
+    "ringkasan": "10 storyboard dibuat sesuai standar NURVERSE."
   },
   "salma": {
     "ringkasan": "Suara: id-ID-ArdiNeural. Ayat tidak dibacakan suara sintetis, hanya terjemahannya."
   },
   "dika": {
-    "ringkasan": "9 video sudah dirender.",
+    "ringkasan": "10 video sudah dirender.",
     "angka": [
       {
         "label": "Total render",
