@@ -1,23 +1,5 @@
 [
   {
-    "t": "2026-11-18T16:27:20.088Z",
-    "agen": "tick",
-    "teks": "selesai dalam 139 detik",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-18T18:58:51.859Z",
-    "agen": "tick",
-    "teks": "denyut dimulai",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-18T19:00:54.546Z",
-    "agen": "laila",
-    "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-    "tingkat": "galat"
-  },
-  {
     "t": "2026-11-18T19:00:54.725Z",
     "agen": "fikri",
     "teks": "statistik 1 video diperbarui",
@@ -475,6 +457,24 @@
   },
   {
     "t": "2026-11-20T19:00:53.726Z",
+    "agen": "tick",
+    "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-20T21:52:38.491Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-20T21:52:38.685Z",
+    "agen": "fikri",
+    "teks": "statistik 2 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-20T21:52:38.686Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
     "tingkat": "info"
