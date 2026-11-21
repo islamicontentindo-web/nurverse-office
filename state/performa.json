@@ -8,7 +8,7 @@
       "formula": "kesalahan-umum",
       "jenis": "short",
       "judul": "Ujian Hidup Bukan Tanda Benci #Shorts",
-      "cek": "2026-11-21T01:11:47.190Z"
+      "cek": "2026-11-21T03:55:35.339Z"
     },
     "2026-W47-U1": {
       "tayang": 2,
@@ -18,22 +18,22 @@
       "formula": "taruhan-kehilangan",
       "jenis": "utama",
       "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
-      "cek": "2026-11-21T01:11:47.190Z"
+      "cek": "2026-11-21T03:55:35.339Z"
     },
     "2026-W47-S2": {
-      "tayang": 0,
-      "suka": 0,
+      "tayang": 7,
+      "suka": 1,
       "komentar": 0,
       "privasi": "public",
       "formula": "pernyataan-tegas",
       "jenis": "short",
       "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts",
-      "cek": "2026-11-21T01:11:47.190Z"
+      "cek": "2026-11-21T03:55:35.339Z"
     }
   },
   "pelajaran": [
     "short/kesalahan-umum: 117 tayang",
-    "utama/taruhan-kehilangan: 2 tayang",
-    "short/pernyataan-tegas: 0 tayang"
+    "short/pernyataan-tegas: 7 tayang",
+    "utama/taruhan-kehilangan: 2 tayang"
   ]
 }
