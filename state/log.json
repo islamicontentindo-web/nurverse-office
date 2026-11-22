@@ -1,11 +1,5 @@
 [
   {
-    "t": "2026-11-19T19:02:22.294Z",
-    "agen": "fikri",
-    "teks": "statistik 1 video diperbarui",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-19T19:02:22.297Z",
     "agen": "tick",
     "teks": "selesai dalam 13 detik",
@@ -477,6 +471,12 @@
     "t": "2026-11-22T06:26:34.343Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T06:27:37.402Z",
+    "agen": "nadia",
+    "teks": "2026-W48-U1: setuju -> terjadwal (tayang 2026-11-27T09:00:00.000Z)",
     "tingkat": "info"
   }
 ]
