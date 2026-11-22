@@ -19,7 +19,8 @@
       },
       "detik": 144,
       "ytId": "Vpzpe8jf3dY",
-      "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan"
+      "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W47",
@@ -40,7 +41,8 @@
       },
       "detik": 38,
       "ytId": "06fRaslBVu0",
-      "judul": "Ujian Hidup Bukan Tanda Benci #Shorts"
+      "judul": "Ujian Hidup Bukan Tanda Benci #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W47",
@@ -61,7 +63,8 @@
       },
       "detik": 31,
       "ytId": "j8aZ7gNSyhM",
-      "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts"
+      "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W47",
@@ -82,7 +85,8 @@
       },
       "detik": 34,
       "ytId": "9SSJw7iSuGA",
-      "judul": "Lelah Berharap pada Manusia #Shorts"
+      "judul": "Lelah Berharap pada Manusia #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W47",
@@ -103,7 +107,8 @@
       },
       "detik": 34,
       "ytId": "MUdahR9mtw4",
-      "judul": "Bahaya Membandingkan Ujian Hidup #Shorts"
+      "judul": "Bahaya Membandingkan Ujian Hidup #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W48",
@@ -124,11 +129,12 @@
       },
       "detik": 151,
       "ytId": "FJEGXw5gqfo",
-      "judul": "Mengapa Ujian Berat Menimpamu?"
+      "judul": "Mengapa Ujian Berat Menimpamu?",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W48",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S1",
@@ -145,11 +151,12 @@
       },
       "detik": 32,
       "ytId": "rpl1sa5JEOY",
-      "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts"
+      "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W48",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S2",
@@ -166,11 +173,12 @@
       },
       "detik": 36,
       "ytId": "T1IKyDExUjY",
-      "judul": "Saat Semua Genggaman Terlepas Paksa #Shorts"
+      "judul": "Saat Semua Genggaman Terlepas Paksa #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W48",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S3",
@@ -187,11 +195,12 @@
       },
       "detik": 33,
       "ytId": "W3itLZA88KY",
-      "judul": "Bebanmu Tidak Pernah Salah Alamat #Shorts"
+      "judul": "Bebanmu Tidak Pernah Salah Alamat #Shorts",
+      "gaya": "geometri"
     },
     {
       "pekan": "2026-W48",
-      "status": "menunggu_persetujuan",
+      "status": "terjadwal",
       "percobaan": 0,
       "dibuat": "2026-11-18T10:06:57.558Z",
       "id": "2026-W48-S4",
@@ -208,7 +217,8 @@
       },
       "detik": 34,
       "ytId": "H5ZmV3uCIkg",
-      "judul": "Bahaya Kehilangan Damai di Ruang Tunggu #Shorts"
+      "judul": "Bahaya Kehilangan Damai di Ruang Tunggu #Shorts",
+      "gaya": "geometri"
     }
   ]
 }
