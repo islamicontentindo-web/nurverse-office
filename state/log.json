@@ -1,23 +1,5 @@
 [
   {
-    "t": "2026-11-20T01:08:55.396Z",
-    "agen": "hasan",
-    "teks": "2026-W48-S3: dalil dibuang (tak terverifikasi): al-baqarah:286",
-    "tingkat": "peringatan"
-  },
-  {
-    "t": "2026-11-20T01:08:55.397Z",
-    "agen": "hasan",
-    "teks": "2026-W48-S4: dalil dibuang (tak terverifikasi): ar-rad:24",
-    "tingkat": "peringatan"
-  },
-  {
-    "t": "2026-11-20T01:09:12.239Z",
-    "agen": "dika",
-    "teks": "render 2026-W48-S1 (3 adegan)…",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-20T01:10:24.300Z",
     "agen": "nadia",
     "teks": "2026-W48-S1 terunggah (menunggu_persetujuan), tayang 2026-11-23T05:30:00.000Z",
@@ -475,6 +457,24 @@
   },
   {
     "t": "2026-11-22T12:56:32.897Z",
+    "agen": "tick",
+    "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T15:49:17.535Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T15:49:17.700Z",
+    "agen": "fikri",
+    "teks": "statistik 4 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T15:49:17.701Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
     "tingkat": "info"
