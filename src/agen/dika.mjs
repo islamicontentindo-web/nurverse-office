@@ -14,9 +14,11 @@ function cariChrome() {
 }
 const buka = async () => chromium.launch({ executablePath: cariChrome(), args: ['--no-sandbox', '--font-render-hinting=none', '--disable-gpu', '--force-color-profile=srgb'] });
 
-async function halaman(browser, w, h) {
+/** Satu berkas HTML per gaya (config.gaya). Gaya tak dikenal -> geometri, jadi video lama tidak pernah rusak. */
+export const BERKAS_GAYA = { geometri: 'scene.html', ilustrasi: 'gaya-ilustrasi.html' };
+async function halaman(browser, w, h, gaya = 'geometri') {
   const page = await browser.newPage({ viewport: { width: w, height: h }, deviceScaleFactor: 1 });
-  await page.goto('file://' + P('render/scene.html'));
+  await page.goto('file://' + P('render', BERKAS_GAYA[gaya] ?? BERKAS_GAYA.geometri));
   return page;
 }
 
@@ -51,7 +53,7 @@ export async function render(sb, dir, { onProgress } = {}) {
   fs.mkdirSync(dir, { recursive: true });
   const browser = await buka();
   try {
-    const page = await halaman(browser, ...sb.ukuran);
+    const page = await halaman(browser, ...sb.ukuran, sb.gaya);
     const seg = [];
     let total = 0;
     for (const a of sb.adegan) {
@@ -74,8 +76,8 @@ export async function render(sb, dir, { onProgress } = {}) {
 export async function thumbnail(sb, keluar) {
   const browser = await buka();
   try {
-    const page = await halaman(browser, 1280, 720);
-    await page.evaluate(([o]) => window.setup(o), [{ w: 1280, h: 720, scene: { i: 3, motif: 'bintang', thumb: sb.thumb, judul: sb.judul, tipe: 'renungan' }, tema: tema(), mode: 'thumb' }]);
+    const page = await halaman(browser, 1280, 720, sb.gaya);
+    await page.evaluate(([o]) => window.setup(o), [{ w: 1280, h: 720, scene: { i: 3, motif: 'bintang', latar: 'malam', aktor: ['berdiri'], thumb: sb.thumb, judul: sb.judul, tipe: 'renungan', teks: String(sb.thumb || '').split(/\s+/).filter(Boolean).slice(0, 3) }, tema: tema(), mode: 'thumb' }]);
     await page.evaluate(() => document.fonts.ready);
     await page.evaluate(() => window.frame(4, 10));
     await page.screenshot({ path: keluar, type: 'jpeg', quality: 92 });
@@ -87,7 +89,7 @@ export async function thumbnail(sb, keluar) {
 export async function pratinjau(sb, dir, pecahan = 0.6) {
   const browser = await buka();
   try {
-    const page = await halaman(browser, ...sb.ukuran);
+    const page = await halaman(browser, ...sb.ukuran, sb.gaya);
     fs.mkdirSync(dir, { recursive: true });
     for (const a of sb.adegan) {
       const dur = (a.durasi ?? 6) + 0.6;

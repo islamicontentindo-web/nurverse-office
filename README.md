@@ -44,11 +44,28 @@ Default `mode_persetujuan: "review"`: video diunggah **private**, dan baru dijad
 
 Semua di `config/nurverse.json`: jadwal (default utama Jumat 16:00 WIB; short Sen 12:30, Sel 05:30, Rab 18:30, Sab 08:00, Min 19:30 — tebakan awal, sesuaikan dengan data channelmu), jumlah short, niche, topik terlarang, suara, model LLM. Standar tampilan & aturan konten: `brand/NURVERSE.md` (kalau kamu sudah punya versimu sendiri, timpa file itu). Dalil hadis yang sudah **kamu periksa sendiri** bisa ditaruh di `data/dalil-pilihan.json` (`[{"kunci","jenis","label","arab","arti"}]`) lalu dirujuk model sebagai `pilihan:kunci`.
 
+## Mengganti gaya visual (tanpa membuat ulang video lama)
+
+Ada dua gaya: `geometri` (motif Islami, teks di tengah) dan `ilustrasi` (kartun vektor: tokoh berpeci, masjid, lentera, sinar cahaya, judul kapital dengan kata kunci hijau-limau, kartu HUD rujukan dalil). Gaya **dipatok ke tiap video saat direncanakan**, jadi video yang sudah dibuat atau diunggah tidak pernah berubah dan tidak dirender ulang.
+
+Di `config/nurverse.json`:
+```json
+"gaya": { "lama": "geometri", "baru": "ilustrasi", "mulai_pekan": "2026-W48" }
+```
+Semua video dari pekan `2026-W48` ke atas memakai `ilustrasi`; pekan sebelumnya tetap `geometri`. Untuk ganti ke gaya baru lebih cepat atau lambat, ubah `mulai_pekan` (format `TAHUN-Wpekan`, pekan ini = `2026-W47`) lalu commit. Video pekan berjalan yang **belum** dirender ikut gaya yang tercatat di `state/antrean.json` (kolom `gaya`); ubah di situ bila ingin satu video tertentu berpindah gaya. Pada gaya `ilustrasi` Laila menulis lebih banyak adegan pendek (1 kalimat = 1 adegan) lengkap dengan latar, pose, dan prop; ayat tetap muncul sebagai tulisan Arab emas + terjemah, tanpa tokoh.
+
+Tokoh ilustrasi hanya orang biasa tanpa nama. Nabi, malaikat, dan sahabat tidak pernah digambarkan di gaya mana pun. Jika kamu lebih nyaman tanpa wajah sama sekali, tetap pakai `geometri`, atau minta saya membuat tokoh siluet tanpa wajah.
+
+## Pengungkapan AI (dua pengaturan terpisah)
+
+- `catatan_ai_di_deskripsi` (default `false`): kalimat "dibuat dengan bantuan AI" di deskripsi. Itu pilihan tampilan saja; YouTube tidak membaca deskripsi untuk mendeteksi AI.
+- `ungkap_sintetis` (default `false`): label resmi "konten sintetis/diubah" YouTube. Kewajiban YouTube berlaku untuk konten **realistis** yang bisa dikira nyata (orang sungguhan, peristiwa nyata, suara orang sungguhan). Animasi kartun dengan suara narator generik umumnya tidak termasuk. Ubah ke `true` bila suatu saat memakai klon suara orang nyata atau gambar/video fotorealistis. Kamu yang bertanggung jawab atas pengisian ini.
+
 ## Jaga konten (dicek mesin, bukan sekadar permintaan sopan)
 
 - Teks ayat **tidak pernah ditulis model**: diambil dari api.alquran.cloud; gagal ambil → adegan dalil dibuang.
 - Narasi yang menyebut "hadis/bersabda/berfirman/imam X berkata" tanpa dalil terverifikasi → ditahan (`butuh_manusia`), bukan ditayangkan.
-- Ayat tidak dibacakan suara sintetis (hanya terjemahannya). Tanpa gambar makhluk bernyawa. Topik terlarang (politik, takfir, fatwa, dll.) ditahan.
+- Ayat tidak dibacakan suara sintetis (hanya terjemahannya). Gaya geometri tanpa makhluk bernyawa; gaya ilustrasi hanya orang biasa tanpa nama. Topik terlarang (politik, takfir, fatwa, dll.) ditahan.
 
 ## Batasan yang perlu kamu tahu
 
@@ -61,7 +78,7 @@ Semua di `config/nurverse.json`: jadwal (default utama Jumat 16:00 WIB; short Se
 
 ## Pengujian
 
-`npm test` (logika murni, 8 uji) · `npm run demo` (satu short penuh dengan LLM/suara palsu: render sungguhan; butuh Chrome + ffmpeg, set `CHROME_PATH`) · `cd office && npm test`. Yang **belum** teruji karena butuh kuncimu: panggilan Gemini/Groq/OpenRouter, Edge TTS, API YouTube (riset & unggah), Telegram, dan deploy Pages. Kemungkinan salah paling besar ada di sana; lihat tab Actions dan catatan di `/hp/` pada denyut pertama.
+`npm test` (logika murni, 10 uji) · `npm run demo` (satu short penuh dengan LLM/suara palsu: render sungguhan; butuh Chrome + ffmpeg, set `CHROME_PATH`) · `cd office && npm test`. Yang **belum** teruji karena butuh kuncimu: panggilan Gemini/Groq/OpenRouter, Edge TTS, API YouTube (riset & unggah), Telegram, dan deploy Pages. Kemungkinan salah paling besar ada di sana; lihat tab Actions dan catatan di `/hp/` pada denyut pertama.
 
 ## Kredit & lisensi
 

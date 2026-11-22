@@ -6,6 +6,13 @@ const adegan = (hook) => [
   { ...ay, narasi: '', motif: 'cahaya' },
   { jenis: 'penutup', narasi: 'Kalau tulisan ini menenangkanmu, bagikan ke satu orang yang sedang menunggu jawaban doanya.', teks: ['Bagikan ke satu orang'], motif: 'bulan' },
 ];
+const ilustrasi = (i) => [
+  { jenis: 'renungan', narasi: 'Kamu paling dekat dengan Allah, saat sujud.', teks: ['Kamu paling dekat', 'dengan Allah,'], sorot: 'dekat', latar: 'malam', aksi: 'berdiri' },
+  { jenis: 'poin', narasi: 'Tapi banyak yang lupa satu hal.', teks: ['Tapi banyak', 'yang lupa'], sorot: 'lupa', latar: 'masjid', aksi: 'sholat' },
+  ...(i === 0 ? [{ ...ay, narasi: '' }] : []),
+  { jenis: 'poin', narasi: 'Yang terlihat dan yang tersembunyi, semuanya didengar.', teks: ['Yang terlihat', 'yang tersembunyi'], sorot: 'tersembunyi', latar: 'cahaya', aksi: 'kosong', prop: ['rumah', 'pintu'] },
+  { jenis: 'penutup', narasi: 'Sujud berikutnya, ingat ini.', teks: ['Sujud berikutnya?'], sorot: 'berikutnya', latar: 'fajar', aksi: 'berdoa' },
+];
 export const MOCK_LLM = {
   plan: () => ({
     tema_pekan: 'Doa yang belum terjawab',
@@ -23,7 +30,8 @@ export const MOCK_LLM = {
       id: (p.match(/ids=([\w,-]+)/)?.[1] ?? 'S1').split(',')[i] ?? `S${i + 1}`,
       hooks: [`Kamu merasa ujianmu terlalu berat? Tunggu sampai kamu dengar ini ${i + 1}.`],
       judul: `Ujian Bukan Hukuman #${i + 1}`, thumb: 'BUKAN HUKUMAN',
-      adegan: [
+      label: 'SAAT SUJUD',
+      adegan: p.includes('Gaya ILUSTRASI') ? ilustrasi(i) : [
         { jenis: 'renungan', narasi: 'Kamu merasa ujianmu terlalu berat? Dengarkan ini sampai selesai.', teks: ['Ujian bukan hukuman'], motif: 'bulan' },
         { jenis: 'poin', judul: 'Ingat ini', narasi: 'Ujian datang untuk menaikkan derajat, bukan menjatuhkan. Yang terasa berat hari ini sedang membentukmu.', teks: ['Menaikkan derajat', 'Bukan menjatuhkan'], motif: 'bintang' },
         ...(i === 0 ? [{ ...ay, narasi: '', motif: 'cahaya' }] : []),

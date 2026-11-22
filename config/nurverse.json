@@ -1,39 +1,129 @@
 {
-  "channel": { "nama": "NURVERSE", "bahasa": "id", "negara": "ID" },
-  "ritme": { "utama_per_minggu": 1, "short_per_minggu": 4 },
-  "durasi": { "utama_kata": [850, 1250], "short_kata": [70, 105] },
+  "channel": {
+    "nama": "NURVERSE",
+    "bahasa": "id",
+    "negara": "ID",
+    "handle": "@nurverse"
+  },
+  "ritme": {
+    "utama_per_minggu": 1,
+    "short_per_minggu": 4
+  },
+  "durasi": {
+    "utama_kata": [
+      850,
+      1250
+    ],
+    "short_kata": [
+      70,
+      105
+    ]
+  },
   "jadwal_tayang_wib": {
-    "utama": { "hari": 5, "jam": "16:00" },
+    "utama": {
+      "hari": 5,
+      "jam": "16:00"
+    },
     "short": [
-      { "hari": 1, "jam": "12:30" },
-      { "hari": 3, "jam": "18:30" },
-      { "hari": 6, "jam": "08:00" },
-      { "hari": 7, "jam": "19:30" },
-      { "hari": 2, "jam": "05:30" }
+      {
+        "hari": 1,
+        "jam": "12:30"
+      },
+      {
+        "hari": 3,
+        "jam": "18:30"
+      },
+      {
+        "hari": 6,
+        "jam": "08:00"
+      },
+      {
+        "hari": 7,
+        "jam": "19:30"
+      },
+      {
+        "hari": 2,
+        "jam": "05:30"
+      }
     ]
   },
   "mode_persetujuan": "review",
-  "ungkap_sintetis": true,
+  "ungkap_sintetis": false,
   "niche": [
-    "kisah hikmah islami", "ayat tentang sabar dan syukur", "muhasabah diri", "doa dan dzikir harian",
-    "asmaul husna", "adab dan akhlak", "kisah para ulama", "motivasi hijrah", "fakta sains dalam Al-Qur'an (hati-hati klaim)"
+    "kisah hikmah islami",
+    "ayat tentang sabar dan syukur",
+    "muhasabah diri",
+    "doa dan dzikir harian",
+    "asmaul husna",
+    "adab dan akhlak",
+    "kisah para ulama",
+    "motivasi hijrah",
+    "fakta sains dalam Al-Qur'an (hati-hati klaim)"
   ],
-  "topik_terlarang": ["politik praktis", "pemilu", "takfir", "menghina mazhab atau kelompok", "vonis halal-haram tanpa dalil", "fatwa", "tafsir mimpi", "klaim penyembuhan", "ramalan", "nomor togel"],
+  "topik_terlarang": [
+    "politik praktis",
+    "pemilu",
+    "takfir",
+    "menghina mazhab atau kelompok",
+    "vonis halal-haram tanpa dalil",
+    "fatwa",
+    "tafsir mimpi",
+    "klaim penyembuhan",
+    "ramalan",
+    "nomor togel"
+  ],
   "llm": {
-    "urutan": ["gemini", "groq", "openrouter"],
+    "urutan": [
+      "gemini",
+      "groq",
+      "openrouter"
+    ],
     "model": {
-      "gemini": { "ringan": "gemini-flash-lite-latest", "naskah": "gemini-flash-latest" },
-      "groq": { "ringan": "llama-3.3-70b-versatile", "naskah": "llama-3.3-70b-versatile" },
-      "openrouter": { "ringan": "meta-llama/llama-3.3-70b-instruct:free", "naskah": "meta-llama/llama-3.3-70b-instruct:free" }
+      "gemini": {
+        "ringan": "gemini-flash-lite-latest",
+        "naskah": "gemini-flash-latest"
+      },
+      "groq": {
+        "ringan": "llama-3.3-70b-versatile",
+        "naskah": "llama-3.3-70b-versatile"
+      },
+      "openrouter": {
+        "ringan": "meta-llama/llama-3.3-70b-instruct:free",
+        "naskah": "meta-llama/llama-3.3-70b-instruct:free"
+      }
     },
     "maks_panggilan_per_hari": 30
   },
-  "suara": { "suara": "id-ID-ArdiNeural", "laju": "-8%", "nada": "-2Hz" },
-  "render": { "fps_utama": 24, "fps_short": 30, "ambient_db": -27 },
+  "suara": {
+    "suara": "id-ID-ArdiNeural",
+    "laju": "-8%",
+    "nada": "-2Hz"
+  },
+  "render": {
+    "fps_utama": 24,
+    "fps_short": 30,
+    "ambient_db": -27
+  },
   "riset": {
-    "kata_kunci": ["kisah hikmah islami", "motivasi islami", "kajian singkat", "muhasabah", "doa harian"],
+    "kata_kunci": [
+      "kisah hikmah islami",
+      "motivasi islami",
+      "kajian singkat",
+      "muhasabah",
+      "doa harian"
+    ],
     "hari_terakhir": 21,
     "maks_kanal_dianalisis": 6
   },
-  "tick": { "maks_menit": 240, "maks_item_per_tick": 3, "maks_percobaan": 4 }
+  "tick": {
+    "maks_menit": 240,
+    "maks_item_per_tick": 3,
+    "maks_percobaan": 4
+  },
+  "gaya": {
+    "lama": "geometri",
+    "baru": "ilustrasi",
+    "mulai_pekan": "2026-W48"
+  },
+  "catatan_ai_di_deskripsi": false
 }

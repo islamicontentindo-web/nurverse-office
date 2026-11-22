@@ -65,3 +65,9 @@ export function catat(agen, teks, tingkat = 'info') {
   writeJson(f, log.slice(-80));
   console.log(`[${agen}] ${teks}`);
 }
+
+/** Gaya visual sebuah pekan. Pekan < mulai_pekan memakai gaya lama; dipatok ke tiap video saat direncanakan, jadi video yang sudah ada tidak pernah berubah. */
+export function gayaUntuk(pekanId, c = cfg()) {
+  const g = c.gaya ?? {};
+  return g.mulai_pekan && pekanId >= g.mulai_pekan ? g.baru ?? 'geometri' : g.lama ?? 'geometri';
+}

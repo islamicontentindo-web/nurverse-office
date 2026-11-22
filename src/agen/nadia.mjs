@@ -11,11 +11,11 @@ export function slotValid(item, sekarang = Date.now()) {
   return new Date(t).toISOString();
 }
 
-function deskripsi(item, naskah) {
+function deskripsi(item, naskah, c = cfg()) {
   const dalil = (naskah.adegan ?? []).filter((a) => a.dalil).map((a) => `• ${a.dalil.label}`);
   const bagian = [naskah.deskripsi, dalil.length ? `Dalil yang dipakai:\n${dalil.join('\n')}\n(Teks dari api.alquran.cloud / sumber terverifikasi)` : '',
     naskah.kueri?.length ? naskah.kueri.map((k) => `#${k.replace(/\s+/g, '')}`).join(' ') : '',
-    item.jenis === 'short' ? '#Shorts' : '', 'NURVERSE — cahaya untuk hati.\nKonten dibuat dengan bantuan AI (naskah, suara sintetis, animasi); dalil diambil dari sumber terverifikasi.'];
+    item.jenis === 'short' ? '#Shorts' : '', 'NURVERSE — cahaya untuk hati.' + (c.catatan_ai_di_deskripsi ? '\nKonten dibuat dengan bantuan AI (naskah, suara sintetis, animasi); dalil diambil dari sumber terverifikasi.' : '')];
   return bagian.filter(Boolean).join('\n\n');
 }
 

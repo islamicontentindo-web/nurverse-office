@@ -49,6 +49,7 @@ function gagal(it, e, tahap) {
 async function main() {
   catat('tick', `denyut dimulai${demo ? ' (DEMO, data palsu)' : ''}`);
   const q = muat();
+  for (const it of q.items) it.gaya ??= 'geometri'; // video lama tanpa catatan gaya = gaya awal; tidak pernah berubah
 
   /* 1. Perencanaan pekan: Tara (riset) -> Bima (rencana, 1 panggilan LLM) */
   const pekan = pekanTarget();

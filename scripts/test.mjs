@@ -9,7 +9,7 @@ import { slotPekan } from '../src/lib/antrean.mjs';
 import { slotValid } from '../src/agen/nadia.mjs';
 import { susun } from '../src/agen/rafi.mjs';
 import { teksSuara } from '../src/agen/salma.mjs';
-import { cfg } from '../src/lib/util.mjs';
+import { cfg, gayaUntuk } from '../src/lib/util.mjs';
 
 let ok = 0;
 const t = (n, f) => { try { f(); ok++; console.log('✓', n); } catch (e) { console.error('✗', n, '\n ', e.message); process.exitCode = 1; } };
@@ -70,5 +70,28 @@ t('storyboard: ayat tidak dibacakan dalam bahasa Arab, narasi dari dalil terveri
   assert.notEqual(sb.adegan[0].motif, sb.adegan[1].motif); // motif beruntun diganti
   assert.ok(!/[\u0600-\u06FF]/.test(teksSuara('Ini فَإِنَّ Arab ﷺ')));
   assert.ok(teksSuara('Nabi ﷺ').includes("shallallahu 'alaihi wasallam"));
+});
+t('gaya: pekan lama tetap geometri, pekan baru ilustrasi (video lama tak pernah berubah)', () => {
+  const c = { gaya: { lama: 'geometri', baru: 'ilustrasi', mulai_pekan: '2026-W48' } };
+  assert.equal(gayaUntuk('2026-W47', c), 'geometri');
+  assert.equal(gayaUntuk('2026-W48', c), 'ilustrasi');
+  assert.equal(gayaUntuk('2027-W01', c), 'ilustrasi');
+  assert.equal(gayaUntuk('2026-W47', {}), 'geometri');
+});
+t('storyboard ilustrasi: latar/aksi valid, HUD di adegan pertama, handle di penutup, dalil tanpa tokoh', () => {
+  const n = { judul: 'Judul Uji', thumb: 'T', label: 'SAAT SUJUD', adegan: [
+    { jenis: 'renungan', narasi: 'Kamu dekat.', teks: ['Kamu dekat'], sorot: 'dekat', latar: 'ngawur', aksi: 'terbang' },
+    { jenis: 'ayat', ref: '94:5', dalil: { jenis: 'ayat', surah: 'Asy-Syarh', a0: 5, a1: 5, label: 'QS. X: 5', arab: 'ا', arti: 'Arti.' } },
+    { jenis: 'penutup', narasi: 'Selesai.', teks: ['Selesai'], aksi: 'kosong' },
+  ] };
+  const sb = susun({ id: 'x', jenis: 'short', gaya: 'ilustrasi' }, n);
+  assert.equal(sb.gaya, 'ilustrasi');
+  assert.ok(['malam', 'masjid', 'cahaya', 'lentera', 'fajar', 'gelap'].includes(sb.adegan[0].latar));
+  assert.deepEqual(sb.adegan[0].aktor, ['berdiri']);
+  assert.equal(sb.adegan[0].hud.label, 'SAAT SUJUD');
+  assert.deepEqual(sb.adegan[1].aktor, []);
+  assert.equal(sb.adegan[1].pill, 'QS. X: 5');
+  assert.equal(sb.adegan[2].handle, cfg().channel.handle);
+  assert.equal(susun({ id: 'y', jenis: 'short' }, n).gaya, 'geometri'); // item lama tanpa catatan gaya
 });
 console.log(`\n${ok} uji lulus`);

@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import { P, readJson, writeJson, fromWib, addDays, S } from './util.mjs';
+import { P, readJson, writeJson, fromWib, addDays, S, gayaUntuk } from './util.mjs';
 
 const F = () => S('state/antrean.json');
 const DIR_SETUJU = () => S('state/persetujuan');
@@ -30,7 +30,7 @@ export function tambahPekan(q, pekan, rencana, c) {
   const slot = slotPekan(pekan.senin, c);
   const maju = (iso) => { let t = Date.parse(iso); while (t < Date.now() + 18 * 3600e3) t += 7 * 86400e3; return new Date(t).toISOString(); };
   slot.utama = slot.utama.map(maju); slot.short = slot.short.map(maju).sort();
-  const dasar = { pekan: pekan.id, status: 'rencana', percobaan: 0, dibuat: new Date().toISOString() };
+  const dasar = { pekan: pekan.id, gaya: gayaUntuk(pekan.id, c), status: 'rencana', percobaan: 0, dibuat: new Date().toISOString() };
   q.items.push({ ...dasar, id: `${pekan.id}-U1`, jenis: 'utama', slot: slot.utama[0], ...rencana.utama });
   rencana.short.slice(0, slot.short.length).forEach((s, i) => q.items.push({ ...dasar, id: `${pekan.id}-S${i + 1}`, jenis: 'short', slot: slot.short[i], ...s }));
   return q;
