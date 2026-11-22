@@ -1,23 +1,5 @@
 [
   {
-    "t": "2026-11-20T01:08:50.843Z",
-    "agen": "laila",
-    "teks": "4/4 naskah short",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-20T01:08:55.395Z",
-    "agen": "hasan",
-    "teks": "2026-W48-S1: dalil dibuang (tak terverifikasi): az-zumar:10",
-    "tingkat": "peringatan"
-  },
-  {
-    "t": "2026-11-20T01:08:55.396Z",
-    "agen": "hasan",
-    "teks": "2026-W48-S2: dalil dibuang (tak terverifikasi): ali-imran:200",
-    "tingkat": "peringatan"
-  },
-  {
     "t": "2026-11-20T01:08:55.396Z",
     "agen": "hasan",
     "teks": "2026-W48-S3: dalil dibuang (tak terverifikasi): al-baqarah:286",
@@ -475,6 +457,24 @@
   },
   {
     "t": "2026-11-22T09:51:26.160Z",
+    "agen": "tick",
+    "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T12:56:32.610Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T12:56:32.896Z",
+    "agen": "fikri",
+    "teks": "statistik 4 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T12:56:32.897Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
     "tingkat": "info"

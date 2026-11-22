@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-22T09:51:26.159Z",
+  "diperbarui": "2026-11-22T12:56:32.897Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -66,8 +66,8 @@
       "id": "2026-W47-S3",
       "jenis": "short",
       "judul": "Lelah Berharap pada Manusia #Shorts",
-      "status": "terjadwal",
-      "label": "terjadwal",
+      "status": "tayang",
+      "label": "tayang",
       "slot": "2026-11-22T12:30:00.000Z",
       "ytId": "9SSJw7iSuGA"
     },
@@ -100,6 +100,24 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-22T12:56:32.896Z",
+      "agen": "fikri",
+      "teks": "statistik 4 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-22T12:56:32.610Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-22T09:51:26.160Z",
+      "agen": "tick",
+      "teks": "selesai dalam 0 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-22T09:51:26.158Z",
       "agen": "fikri",
@@ -228,24 +246,6 @@
     },
     {
       "t": "2026-11-21T21:44:20.290Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-21T18:50:34.010Z",
-      "agen": "tick",
-      "teks": "selesai dalam 0 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-21T18:50:34.008Z",
-      "agen": "fikri",
-      "teks": "statistik 3 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-21T18:50:33.861Z",
       "agen": "tick",
       "teks": "denyut dimulai",
       "tingkat": "info"
