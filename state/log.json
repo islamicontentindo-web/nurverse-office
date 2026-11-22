@@ -1,23 +1,5 @@
 [
   {
-    "t": "2026-11-20T01:10:24.300Z",
-    "agen": "nadia",
-    "teks": "2026-W48-S1 terunggah (menunggu_persetujuan), tayang 2026-11-23T05:30:00.000Z",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-20T01:10:40.665Z",
-    "agen": "dika",
-    "teks": "render 2026-W48-S2 (3 adegan)…",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-20T01:12:02.125Z",
-    "agen": "nadia",
-    "teks": "2026-W48-S2 terunggah (menunggu_persetujuan), tayang 2026-11-23T22:30:00.000Z",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-20T01:12:16.114Z",
     "agen": "dika",
     "teks": "render 2026-W48-S3 (3 adegan)…",
@@ -475,6 +457,24 @@
   },
   {
     "t": "2026-11-22T15:49:17.701Z",
+    "agen": "tick",
+    "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T18:52:14.887Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T18:52:15.076Z",
+    "agen": "fikri",
+    "teks": "statistik 4 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T18:52:15.077Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
     "tingkat": "info"
