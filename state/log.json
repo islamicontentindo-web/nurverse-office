@@ -1,23 +1,5 @@
 [
   {
-    "t": "2026-11-19T21:57:48.080Z",
-    "agen": "fikri",
-    "teks": "statistik 1 video diperbarui",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-19T21:57:48.083Z",
-    "agen": "tick",
-    "teks": "selesai dalam 204 detik",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-20T01:07:19.897Z",
-    "agen": "tick",
-    "teks": "denyut dimulai",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-20T01:08:50.843Z",
     "agen": "laila",
     "teks": "4/4 naskah short",
@@ -475,6 +457,24 @@
   },
   {
     "t": "2026-11-22T07:12:15.585Z",
+    "agen": "tick",
+    "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T09:51:26.000Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T09:51:26.158Z",
+    "agen": "fikri",
+    "teks": "statistik 3 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T09:51:26.160Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
     "tingkat": "info"
