@@ -1,11 +1,5 @@
 [
   {
-    "t": "2026-11-19T13:22:01.044Z",
-    "agen": "tick",
-    "teks": "selesai dalam 130 detik",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-19T16:03:04.860Z",
     "agen": "tick",
     "teks": "denyut dimulai",
@@ -477,6 +471,12 @@
     "t": "2026-11-22T03:57:14.485Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-22T06:04:30.669Z",
+    "agen": "nadia",
+    "teks": "2026-W48-S1: setuju -> terjadwal (tayang 2026-11-23T05:30:00.000Z)",
     "tingkat": "info"
   }
 ]
