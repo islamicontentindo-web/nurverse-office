@@ -30,16 +30,15 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "3 video menunggu persetujuanmu.",
+    "ringkasan": "2 video menunggu persetujuanmu.",
     "menunggu": [
       "Setujui: Mengapa Ujian Berat Menimpamu?",
-      "Setujui: Bebanmu Tidak Pernah Salah Alamat #Shorts",
       "Setujui: Bahaya Kehilangan Damai di Ruang Tunggu #Shorts"
     ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "3 video"
+        "nilai": "2 video"
       }
     ]
   },
