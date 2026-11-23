@@ -8,7 +8,7 @@
       "formula": "kesalahan-umum",
       "jenis": "short",
       "judul": "Ujian Hidup Bukan Tanda Benci #Shorts",
-      "cek": "2026-11-23T04:09:02.654Z"
+      "cek": "2026-11-23T07:37:56.753Z"
     },
     "2026-W47-U1": {
       "tayang": 2,
@@ -18,7 +18,7 @@
       "formula": "taruhan-kehilangan",
       "jenis": "utama",
       "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
-      "cek": "2026-11-23T04:09:02.654Z"
+      "cek": "2026-11-23T07:37:56.753Z"
     },
     "2026-W47-S2": {
       "tayang": 14,
@@ -28,7 +28,7 @@
       "formula": "pernyataan-tegas",
       "jenis": "short",
       "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts",
-      "cek": "2026-11-23T04:09:02.654Z"
+      "cek": "2026-11-23T07:37:56.753Z"
     },
     "2026-W47-S3": {
       "tayang": 4,
@@ -38,13 +38,34 @@
       "formula": "pertanyaan-yang-tak-bisa-ditutup",
       "jenis": "short",
       "judul": "Lelah Berharap pada Manusia #Shorts",
-      "cek": "2026-11-23T04:09:02.654Z"
+      "cek": "2026-11-23T07:37:56.753Z"
+    },
+    "2026-W47-S4": {
+      "tayang": 0,
+      "suka": 0,
+      "komentar": 0,
+      "privasi": "public",
+      "formula": "taruhan-kehilangan",
+      "jenis": "short",
+      "judul": "Bahaya Membandingkan Ujian Hidup #Shorts",
+      "cek": "2026-11-23T07:37:56.753Z"
+    },
+    "2026-W48-S1": {
+      "tayang": 0,
+      "suka": 0,
+      "komentar": 0,
+      "privasi": "public",
+      "formula": "kesalahan-umum",
+      "jenis": "short",
+      "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts",
+      "cek": "2026-11-23T07:37:56.753Z"
     }
   },
   "pelajaran": [
     "short/kesalahan-umum: 117 tayang",
     "short/pernyataan-tegas: 14 tayang",
     "short/pertanyaan-yang-tak-bisa-ditutup: 4 tayang",
-    "utama/taruhan-kehilangan: 2 tayang"
+    "utama/taruhan-kehilangan: 2 tayang",
+    "short/taruhan-kehilangan: 0 tayang"
   ]
 }
