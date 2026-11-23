@@ -8,7 +8,7 @@
       "formula": "kesalahan-umum",
       "jenis": "short",
       "judul": "Ujian Hidup Bukan Tanda Benci #Shorts",
-      "cek": "2026-11-23T13:30:09.943Z"
+      "cek": "2026-11-23T16:12:48.206Z"
     },
     "2026-W47-U1": {
       "tayang": 2,
@@ -18,7 +18,7 @@
       "formula": "taruhan-kehilangan",
       "jenis": "utama",
       "judul": "Lelah Bersabar? Ini yang Sedang Disiapkan",
-      "cek": "2026-11-23T13:30:09.943Z"
+      "cek": "2026-11-23T16:12:48.206Z"
     },
     "2026-W47-S2": {
       "tayang": 14,
@@ -28,17 +28,17 @@
       "formula": "pernyataan-tegas",
       "jenis": "short",
       "judul": "Menahan Lisan Saat Musibah Mendadak #Shorts",
-      "cek": "2026-11-23T13:30:09.943Z"
+      "cek": "2026-11-23T16:12:48.206Z"
     },
     "2026-W47-S3": {
-      "tayang": 4,
+      "tayang": 2,
       "suka": 0,
       "komentar": 0,
       "privasi": "public",
       "formula": "pertanyaan-yang-tak-bisa-ditutup",
       "jenis": "short",
       "judul": "Lelah Berharap pada Manusia #Shorts",
-      "cek": "2026-11-23T13:30:09.943Z"
+      "cek": "2026-11-23T16:12:48.206Z"
     },
     "2026-W47-S4": {
       "tayang": 0,
@@ -48,24 +48,24 @@
       "formula": "taruhan-kehilangan",
       "jenis": "short",
       "judul": "Bahaya Membandingkan Ujian Hidup #Shorts",
-      "cek": "2026-11-23T13:30:09.943Z"
+      "cek": "2026-11-23T16:12:48.206Z"
     },
     "2026-W48-S1": {
-      "tayang": 8,
+      "tayang": 10,
       "suka": 0,
       "komentar": 0,
       "privasi": "public",
       "formula": "kesalahan-umum",
       "jenis": "short",
       "judul": "Bukan Lemah, Inilah Rahasia di Balik Diam #Shorts",
-      "cek": "2026-11-23T13:30:09.943Z"
+      "cek": "2026-11-23T16:12:48.206Z"
     }
   },
   "pelajaran": [
     "short/kesalahan-umum: 117 tayang",
     "short/pernyataan-tegas: 14 tayang",
-    "short/kesalahan-umum: 8 tayang",
-    "short/pertanyaan-yang-tak-bisa-ditutup: 4 tayang",
-    "utama/taruhan-kehilangan: 2 tayang"
+    "short/kesalahan-umum: 10 tayang",
+    "utama/taruhan-kehilangan: 2 tayang",
+    "short/pertanyaan-yang-tak-bisa-ditutup: 2 tayang"
   ]
 }
