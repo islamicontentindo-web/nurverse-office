@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-23T21:55:57.752Z",
+  "diperbarui": "2026-11-24T01:12:12.341Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -30,8 +30,8 @@
       "id": "2026-W48-S2",
       "jenis": "short",
       "judul": "Saat Semua Genggaman Terlepas Paksa #Shorts",
-      "status": "terjadwal",
-      "label": "terjadwal",
+      "status": "tayang",
+      "label": "tayang",
       "slot": "2026-11-23T22:30:00.000Z",
       "ytId": "T1IKyDExUjY"
     },
@@ -100,6 +100,24 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-24T01:12:12.339Z",
+      "agen": "fikri",
+      "teks": "statistik 7 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-24T01:12:12.066Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-23T21:55:57.752Z",
+      "agen": "tick",
+      "teks": "selesai dalam 0 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-23T21:55:57.675Z",
       "agen": "fikri",
@@ -228,24 +246,6 @@
     },
     {
       "t": "2026-11-23T01:14:03.096Z",
-      "agen": "fikri",
-      "teks": "statistik 4 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-23T01:14:02.805Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-22T21:47:17.192Z",
-      "agen": "tick",
-      "teks": "selesai dalam 0 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-22T21:47:17.190Z",
       "agen": "fikri",
       "teks": "statistik 4 video diperbarui",
       "tingkat": "info"
