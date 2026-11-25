@@ -1,23 +1,5 @@
 [
   {
-    "t": "2026-11-22T03:57:14.340Z",
-    "agen": "tick",
-    "teks": "denyut dimulai",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T03:57:14.483Z",
-    "agen": "fikri",
-    "teks": "statistik 3 video diperbarui",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T03:57:14.485Z",
-    "agen": "tick",
-    "teks": "selesai dalam 0 detik",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-22T06:04:30.669Z",
     "agen": "nadia",
     "teks": "2026-W48-S1: setuju -> terjadwal (tayang 2026-11-23T05:30:00.000Z)",
@@ -475,6 +457,24 @@
   },
   {
     "t": "2026-11-25T01:17:41.573Z",
+    "agen": "tick",
+    "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T04:09:09.817Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T04:09:10.034Z",
+    "agen": "fikri",
+    "teks": "statistik 7 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T04:09:10.036Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
     "tingkat": "info"
