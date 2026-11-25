@@ -22,7 +22,7 @@
     "angka": [
       {
         "label": "Panggilan LLM hari ini",
-        "nilai": "1/30"
+        "nilai": "0/30"
       }
     ]
   },
