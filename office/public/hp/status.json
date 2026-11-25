@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-25T11:28:26.005Z",
+  "diperbarui": "2026-11-25T13:26:13.253Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -68,8 +68,8 @@
       "id": "2026-W48-S3",
       "jenis": "short",
       "judul": "Bebanmu Tidak Pernah Salah Alamat #Shorts",
-      "status": "terjadwal",
-      "label": "terjadwal",
+      "status": "tayang",
+      "label": "tayang",
       "slot": "2026-11-25T11:30:00.000Z",
       "ytId": "W3itLZA88KY"
     },
@@ -138,6 +138,30 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-25T13:26:13.252Z",
+      "agen": "fikri",
+      "teks": "statistik 8 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-25T13:26:13.048Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-25T13:26:04.244Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-25T11:28:26.006Z",
+      "agen": "tick",
+      "teks": "selesai dalam 21 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-25T11:28:26.002Z",
       "agen": "fikri",
@@ -262,30 +286,6 @@
       "t": "2026-11-24T22:00:51.898Z",
       "agen": "tick",
       "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-24T19:02:25.253Z",
-      "agen": "tick",
-      "teks": "selesai dalam 0 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-24T19:02:25.251Z",
-      "agen": "fikri",
-      "teks": "statistik 7 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-24T19:02:25.045Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-24T16:15:27.236Z",
-      "agen": "tick",
-      "teks": "selesai dalam 0 detik",
       "tingkat": "info"
     }
   ]

@@ -13,7 +13,7 @@
     "angka": [
       {
         "label": "Dalam antrean",
-        "nilai": "8 video"
+        "nilai": "7 video"
       }
     ]
   },
@@ -30,7 +30,7 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "3 terjadwal, 7 tayang.",
+    "ringkasan": "2 terjadwal, 8 tayang.",
     "angka": [
       {
         "label": "Menunggu",
@@ -58,7 +58,7 @@
     "angka": [
       {
         "label": "Tayang",
-        "nilai": "7 video"
+        "nilai": "8 video"
       }
     ]
   }

@@ -1,29 +1,5 @@
 [
   {
-    "t": "2026-11-22T09:51:26.160Z",
-    "agen": "tick",
-    "teks": "selesai dalam 0 detik",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T12:56:32.610Z",
-    "agen": "tick",
-    "teks": "denyut dimulai",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T12:56:32.896Z",
-    "agen": "fikri",
-    "teks": "statistik 4 video diperbarui",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T12:56:32.897Z",
-    "agen": "tick",
-    "teks": "selesai dalam 0 detik",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-22T15:49:17.535Z",
     "agen": "tick",
     "teks": "denyut dimulai",
@@ -477,6 +453,30 @@
     "t": "2026-11-25T11:28:26.006Z",
     "agen": "tick",
     "teks": "selesai dalam 21 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T13:26:04.244Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T13:26:13.048Z",
+    "agen": "laila",
+    "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "tingkat": "galat"
+  },
+  {
+    "t": "2026-11-25T13:26:13.252Z",
+    "agen": "fikri",
+    "teks": "statistik 8 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T13:26:13.254Z",
+    "agen": "tick",
+    "teks": "selesai dalam 9 detik",
     "tingkat": "info"
   }
 ]
