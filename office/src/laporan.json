@@ -1,6 +1,6 @@
 {
   "tara": {
-    "ringkasan": "Musim: 8 Jumadil Akhir 1448. 6 video outlier di niche, 10 tren Indonesia dipantau.",
+    "ringkasan": "Musim: 15 Jumadil Akhir 1448. 6 video outlier di niche, 10 tren Indonesia dipantau.",
     "angka": [
       {
         "label": "Outlier niche",
@@ -9,11 +9,11 @@
     ]
   },
   "bima": {
-    "ringkasan": "Pekan 2026-W48: 1 utama + 4 short direncanakan.",
+    "ringkasan": "Pekan 2026-W49: 1 utama + 4 short direncanakan.",
     "angka": [
       {
         "label": "Dalam antrean",
-        "nilai": "3 video"
+        "nilai": "8 video"
       }
     ]
   },
@@ -22,7 +22,7 @@
     "angka": [
       {
         "label": "Panggilan LLM hari ini",
-        "nilai": "0/30"
+        "nilai": "1/30"
       }
     ]
   },

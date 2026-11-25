@@ -1,41 +1,5 @@
 [
   {
-    "t": "2026-11-22T06:21:53.053Z",
-    "agen": "nadia",
-    "teks": "2026-W48-S4: setuju -> terjadwal (tayang 2026-11-28T01:00:00.000Z)",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T06:26:34.176Z",
-    "agen": "tick",
-    "teks": "denyut dimulai",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T06:26:34.341Z",
-    "agen": "fikri",
-    "teks": "statistik 3 video diperbarui",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T06:26:34.343Z",
-    "agen": "tick",
-    "teks": "selesai dalam 0 detik",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T06:27:37.402Z",
-    "agen": "nadia",
-    "teks": "2026-W48-U1: setuju -> terjadwal (tayang 2026-11-27T09:00:00.000Z)",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-22T07:12:15.393Z",
-    "agen": "tick",
-    "teks": "denyut dimulai",
-    "tingkat": "info"
-  },
-  {
     "t": "2026-11-22T07:12:15.583Z",
     "agen": "fikri",
     "teks": "statistik 3 video diperbarui",
@@ -477,6 +441,42 @@
     "t": "2026-11-25T07:25:02.338Z",
     "agen": "tick",
     "teks": "selesai dalam 0 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T10:16:44.382Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T10:16:49.386Z",
+    "agen": "tara",
+    "teks": "riset selesai: 6 outlier, 10 tren ID",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T10:16:56.983Z",
+    "agen": "bima",
+    "teks": "rencana 2026-W49: \"Sabar dalam ujian hidup sehari-hari\" + 4 short",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T10:17:07.316Z",
+    "agen": "laila",
+    "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "tingkat": "galat"
+  },
+  {
+    "t": "2026-11-25T10:17:07.444Z",
+    "agen": "fikri",
+    "teks": "statistik 7 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-25T10:17:07.446Z",
+    "agen": "tick",
+    "teks": "selesai dalam 23 detik",
     "tingkat": "info"
   }
 ]

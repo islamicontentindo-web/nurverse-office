@@ -219,6 +219,101 @@
       "ytId": "H5ZmV3uCIkg",
       "judul": "Bahaya Kehilangan Damai di Ruang Tunggu #Shorts",
       "gaya": "geometri"
+    },
+    {
+      "pekan": "2026-W49",
+      "gaya": "ilustrasi",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-25T10:16:56.983Z",
+      "id": "2026-W49-U1",
+      "jenis": "utama",
+      "slot": "2026-12-04T09:00:00.000Z",
+      "topik": "Sabar dalam ujian hidup sehari-hari",
+      "sudut": "Kehilangan rasa tenang saat masalah kecil datang, padahal ada janji besar di baliknya",
+      "formula": "taruhan-kehilangan",
+      "dalil": {
+        "ayat": [
+          "al-baqarah:155"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W49",
+      "gaya": "ilustrasi",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-25T10:16:56.983Z",
+      "id": "2026-W49-S1",
+      "jenis": "short",
+      "slot": "2026-11-30T05:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Kesalahan umum saat menganggap sabar itu berarti diam tanpa ikhtiar",
+      "formula": "kesalahan-umum",
+      "dalil": {
+        "ayat": [
+          "ali-imran:200"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W49",
+      "gaya": "ilustrasi",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-25T10:16:56.983Z",
+      "id": "2026-W49-S2",
+      "jenis": "short",
+      "slot": "2026-11-30T22:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Pertanyaan tentang apa yang sebenarnya tersisa ketika semua rencana gagal total",
+      "formula": "pertanyaan-yang-tak-bisa-ditutup",
+      "dalil": {
+        "ayat": [
+          "ar-rad:22"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W49",
+      "gaya": "ilustrasi",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-25T10:16:56.983Z",
+      "id": "2026-W49-S3",
+      "jenis": "short",
+      "slot": "2026-12-02T11:30:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Pernyataan tegas bahwa ujian bukan tanda kebencian, melainkan cara meninggikan derajat",
+      "formula": "pernyataan-tegas",
+      "dalil": {
+        "ayat": [
+          "al-ankabut:2"
+        ],
+        "hadis": []
+      }
+    },
+    {
+      "pekan": "2026-W49",
+      "gaya": "ilustrasi",
+      "status": "rencana",
+      "percobaan": 0,
+      "dibuat": "2026-11-25T10:16:56.983Z",
+      "id": "2026-W49-S4",
+      "jenis": "short",
+      "slot": "2026-12-05T01:00:00.000Z",
+      "topik": "Sabar dalam ujian",
+      "sudut": "Taruhan kehilangan pahala besar hanya karena keluh kesah di detik-detik terakhir ujian",
+      "formula": "taruhan-kehilangan",
+      "dalil": {
+        "ayat": [
+          "az-zumar:10"
+        ],
+        "hadis": []
+      }
     }
   ]
 }
