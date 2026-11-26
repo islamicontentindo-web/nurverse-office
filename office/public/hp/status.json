@@ -1,13 +1,13 @@
 {
-  "diperbarui": "2026-11-26T16:09:26.246Z",
+  "diperbarui": "2026-11-26T19:04:33.496Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
-    "llm": 2,
+    "llm": 0,
     "batas": 30
   },
   "peringatan": [
-    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout"
   ],
   "antrean": [
     {
@@ -139,6 +139,30 @@
   ],
   "log": [
     {
+      "t": "2026-11-26T19:04:33.494Z",
+      "agen": "fikri",
+      "teks": "statistik 8 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T19:04:33.295Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-26T19:02:18.569Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T16:09:26.246Z",
+      "agen": "tick",
+      "teks": "selesai dalam 24 detik",
+      "tingkat": "info"
+    },
+    {
       "t": "2026-11-26T16:09:26.245Z",
       "agen": "fikri",
       "teks": "statistik 8 video diperbarui",
@@ -262,30 +286,6 @@
       "t": "2026-11-26T04:08:30.990Z",
       "agen": "dika",
       "teks": "render 2026-W49-U1 (19 adegan)…",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T04:07:40.463Z",
-      "agen": "hasan",
-      "teks": "2026-W49-U1: dalil dibuang (tak terverifikasi): al-baqarah:155",
-      "tingkat": "peringatan"
-    },
-    {
-      "t": "2026-11-26T04:07:00.766Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: Expected double-quoted property name in JSON at position 6742 | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-26T04:05:20.942Z",
-      "agen": "laila",
-      "teks": "naskah utama: \"Rahasia Tetap Tenang Saat Semua Rencana Berantakan\"",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T04:04:48.711Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
       "tingkat": "info"
     }
   ]
