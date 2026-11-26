@@ -1,13 +1,13 @@
 {
-  "diperbarui": "2026-11-26T01:18:03.637Z",
+  "diperbarui": "2026-11-26T04:11:14.509Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
-    "llm": 0,
+    "llm": 2,
     "batas": 30
   },
   "peringatan": [
-    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
+    "naskah: semua penyedia LLM gagal: Expected double-quoted property name in JSON at position 6742 | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
   ],
   "antrean": [
     {
@@ -49,11 +49,11 @@
     {
       "id": "2026-W49-U1",
       "jenis": "utama",
-      "judul": "Sabar dalam ujian hidup sehari-hari",
-      "status": "rencana",
-      "label": "direncanakan",
+      "judul": "Rahasia Tetap Tenang Saat Semua Rencana Berantakan",
+      "status": "menunggu_persetujuan",
+      "label": "menunggu persetujuanmu",
       "slot": "2026-12-04T09:00:00.000Z",
-      "ytId": null
+      "ytId": "8gL2E4Bw7Ug"
     },
     {
       "id": "2026-W48-S4",
@@ -138,6 +138,60 @@
     }
   ],
   "log": [
+    {
+      "t": "2026-11-26T04:11:14.507Z",
+      "agen": "fikri",
+      "teks": "statistik 8 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T04:11:14.384Z",
+      "agen": "nadia",
+      "teks": "2026-W49-U1 terunggah (menunggu_persetujuan), tayang 2026-12-04T09:00:00.000Z",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T04:11:14.383Z",
+      "agen": "nadia",
+      "teks": "thumbnail gagal: thumbnail 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat (akun harus terverifikasi telepon)",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-26T04:08:30.990Z",
+      "agen": "dika",
+      "teks": "render 2026-W49-U1 (19 adegan)…",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T04:07:40.463Z",
+      "agen": "hasan",
+      "teks": "2026-W49-U1: dalil dibuang (tak terverifikasi): al-baqarah:155",
+      "tingkat": "peringatan"
+    },
+    {
+      "t": "2026-11-26T04:07:00.766Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: Expected double-quoted property name in JSON at position 6742 | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-26T04:05:20.942Z",
+      "agen": "laila",
+      "teks": "naskah utama: \"Rahasia Tetap Tenang Saat Semua Rencana Berantakan\"",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T04:04:48.711Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T01:18:03.637Z",
+      "agen": "tick",
+      "teks": "selesai dalam 16 detik",
+      "tingkat": "info"
+    },
     {
       "t": "2026-11-26T01:18:03.635Z",
       "agen": "fikri",
@@ -232,60 +286,6 @@
       "t": "2026-11-25T13:26:13.254Z",
       "agen": "tick",
       "teks": "selesai dalam 9 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T13:26:13.252Z",
-      "agen": "fikri",
-      "teks": "statistik 8 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T13:26:13.048Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-25T13:26:04.244Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T11:28:26.006Z",
-      "agen": "tick",
-      "teks": "selesai dalam 21 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T11:28:26.002Z",
-      "agen": "fikri",
-      "teks": "statistik 7 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T11:28:25.810Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-25T11:28:05.303Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T10:17:07.446Z",
-      "agen": "tick",
-      "teks": "selesai dalam 23 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-25T10:17:07.444Z",
-      "agen": "fikri",
-      "teks": "statistik 7 video diperbarui",
       "tingkat": "info"
     }
   ]

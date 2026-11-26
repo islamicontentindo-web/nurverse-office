@@ -1,0 +1,363 @@
+{
+  "id": "2026-W49-U1",
+  "jenis": "utama",
+  "gaya": "ilustrasi",
+  "ukuran": [
+    1920,
+    1080
+  ],
+  "judul": "Rahasia Tetap Tenang Saat Semua Rencana Berantakan",
+  "thumb": "RAHASIA HATI TENANG",
+  "adegan": [
+    {
+      "i": 0,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "gelap",
+      "prop": [
+        "siluet"
+      ],
+      "aktor": [
+        "berdiri"
+      ],
+      "sorot": "DAMAI",
+      "caption": false,
+      "narasi": "Jangan sampai kamu menukar ketenangan hidupmu hanya demi melampiaskan amarah sesaat.",
+      "teks": [
+        "KEHILANGAN DAMAI",
+        "KARENA HAL SEPELE?"
+      ],
+      "hud": {
+        "label": "SAAT GELISAH",
+        "baris": "RAHASIA TETAP TENANG SAAT SEMU"
+      }
+    },
+    {
+      "i": 1,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "malam",
+      "prop": [
+        "batu"
+      ],
+      "aktor": [
+        "tunduk"
+      ],
+      "sorot": "MERUSAK",
+      "caption": false,
+      "narasi": "Kopi tumpah atau terjebak macet sering kali langsung merusak seluruh suasana hatimu seharian.",
+      "teks": [
+        "HAL KECIL",
+        "MERUSAK SUASANA"
+      ]
+    },
+    {
+      "i": 2,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "lentera",
+      "prop": [
+        "pintu"
+      ],
+      "aktor": [
+        "duduk"
+      ],
+      "sorot": "MAHAL",
+      "caption": false,
+      "narasi": "Padahal, ketenangan hati adalah rezeki berharga yang terlalu mahal untuk ditukar amarah.",
+      "teks": [
+        "KETENANGAN HATI",
+        "TERLALU MAHAL"
+      ]
+    },
+    {
+      "i": 3,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "gelap",
+      "prop": [
+        "siluet"
+      ],
+      "aktor": [
+        "berdiri"
+      ],
+      "sorot": "MENGELUH",
+      "caption": false,
+      "narasi": "Kita begitu mudah mengeluh ketika kenyataan tidak sejalan dengan apa yang direncanakan.",
+      "teks": [
+        "MUDAH MENGELUH",
+        "SAAT KECEWA"
+      ]
+    },
+    {
+      "i": 4,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "fajar",
+      "prop": [
+        "rumah"
+      ],
+      "aktor": [
+        "berdiri"
+      ],
+      "sorot": "JIWA",
+      "caption": false,
+      "narasi": "Pernahkah kamu berpikir bahwa ketidaknyamanan kecil itu adalah cara mendidik jiwa kita?",
+      "teks": [
+        "MENDIDIK JIWA",
+        "LEWAT KETIDAKNYAMANAN"
+      ]
+    },
+    {
+      "i": 5,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "cahaya",
+      "prop": [],
+      "aktor": [
+        "duduk"
+      ],
+      "sorot": "GOYAH",
+      "caption": false,
+      "narasi": "Hati sedang dilatih agar tidak mudah goyah oleh riak-riak kecil kehidupan dunia.",
+      "teks": [
+        "MELATIH HATI",
+        "AGAR TIDAK GOYAH"
+      ]
+    },
+    {
+      "i": 6,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "malam",
+      "prop": [],
+      "aktor": [
+        "tunduk"
+      ],
+      "sorot": "UJIAN",
+      "caption": false,
+      "narasi": "Kenyataannya, setiap helaan napas kita memang dirancang berdampingan dengan aneka bentuk ujian.",
+      "teks": [
+        "HIDUP INI",
+        "PENUH UJIAN"
+      ]
+    },
+    {
+      "i": 7,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "lentera",
+      "prop": [
+        "batu"
+      ],
+      "aktor": [
+        "duduk"
+      ],
+      "sorot": "IMAN",
+      "caption": false,
+      "narasi": "Rasa cemas, kekurangan rezeki, hingga kehilangan adalah jalan menuju pendewasaan iman kita.",
+      "teks": [
+        "PROSES IMAN",
+        "MENUJU DEWASA"
+      ]
+    },
+    {
+      "i": 8,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "cahaya",
+      "prop": [],
+      "aktor": [
+        "berdiri"
+      ],
+      "sorot": "GEMBIRA",
+      "caption": false,
+      "narasi": "Namun ada kabar gembira yang luar biasa indah bagi mereka yang memilih bertahan.",
+      "teks": [
+        "KABAR GEMBIRA",
+        "UNTUKMU"
+      ]
+    },
+    {
+      "i": 9,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "gelap",
+      "prop": [
+        "siluet"
+      ],
+      "aktor": [
+        "tunduk"
+      ],
+      "sorot": "SABAR",
+      "caption": false,
+      "narasi": "Sabar bukan berarti kamu tidak boleh merasa lelah atau meneteskan air mata.",
+      "teks": [
+        "SABAR BUKAN",
+        "TANPA RASA"
+      ]
+    },
+    {
+      "i": 10,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "malam",
+      "prop": [],
+      "aktor": [
+        "duduk"
+      ],
+      "sorot": "LISAN",
+      "caption": false,
+      "narasi": "Sabar sejati adalah menahan lisanmu agar tidak melontarkan kata-kata penyesalan sia-sia.",
+      "teks": [
+        "MENAHAN LISAN",
+        "DARI KELUHAN"
+      ]
+    },
+    {
+      "i": 11,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "fajar",
+      "prop": [
+        "pintu"
+      ],
+      "aktor": [
+        "berdiri"
+      ],
+      "sorot": "TUJUAN",
+      "caption": false,
+      "narasi": "Saat amarah mulai membakar dadamu, berhentilah sejenak dan ingat kembali tujuan akhirmu.",
+      "teks": [
+        "BERHENTI SEJENAK",
+        "INGAT TUJUAN"
+      ]
+    },
+    {
+      "i": 12,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "cahaya",
+      "prop": [],
+      "aktor": [
+        "berdoa"
+      ],
+      "sorot": "TAKDIR",
+      "caption": false,
+      "narasi": "Masalah kecil hari ini sama sekali tidak akan merusak ketetapan takdir terbaikmu.",
+      "teks": [
+        "TAKDIR TERBAIK",
+        "TETAP TERJAGA"
+      ]
+    },
+    {
+      "i": 13,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "gelap",
+      "prop": [
+        "batu"
+      ],
+      "aktor": [
+        "tunduk"
+      ],
+      "sorot": "PAHALA",
+      "caption": false,
+      "narasi": "Berapa banyak pahala yang hangus hanya karena kita terburu-buru mengumbar kekesalan hati?",
+      "teks": [
+        "PAHALA HANGUS",
+        "KARENA EMOSI"
+      ]
+    },
+    {
+      "i": 14,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "lentera",
+      "prop": [],
+      "aktor": [
+        "duduk"
+      ],
+      "sorot": "PELUANG",
+      "caption": false,
+      "narasi": "Pandanglah setiap gangguan kecil sebagai peluang emas untuk mengumpulkan pahala tanpa batas.",
+      "teks": [
+        "PELUANG EMAS",
+        "DARI HAL KECIL"
+      ]
+    },
+    {
+      "i": 15,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "masjid",
+      "prop": [
+        "saf"
+      ],
+      "aktor": [
+        "sholat"
+      ],
+      "sorot": "LAPANG",
+      "caption": false,
+      "narasi": "Hati yang lapang akan selalu menemukan ruang damai di tengah kondisi tersempit.",
+      "teks": [
+        "HATI LAPANG",
+        "SELALU DAMAI"
+      ]
+    },
+    {
+      "i": 16,
+      "tipe": "poin",
+      "motif": "bulan",
+      "latar": "fajar",
+      "prop": [],
+      "aktor": [
+        "ruku"
+      ],
+      "sorot": "PASRAH",
+      "caption": false,
+      "narasi": "Lepaskan keinginan untuk mengatur segalanya dan pasrahkan hasilnya kepada Sang Pemelihara.",
+      "teks": [
+        "PASRAHKAN HASIL",
+        "KEPADA ALLAH"
+      ]
+    },
+    {
+      "i": 17,
+      "tipe": "renungan",
+      "motif": "bulan",
+      "latar": "cahaya",
+      "prop": [],
+      "aktor": [
+        "sujud"
+      ],
+      "sorot": "RIDHA",
+      "caption": false,
+      "narasi": "Ketenangan sejati akan hadir saat kamu menerima setiap ketetapan-Nya dengan dada lapang.",
+      "teks": [
+        "DAMAI SEJATI",
+        "DENGAN RIDHA"
+      ]
+    },
+    {
+      "i": 18,
+      "tipe": "penutup",
+      "motif": "bulan",
+      "latar": "malam",
+      "prop": [
+        "rumah"
+      ],
+      "aktor": [
+        "berdoa"
+      ],
+      "sorot": "SABAR",
+      "caption": false,
+      "narasi": "Mari kita jaga ketenangan hati hari ini dengan membalas setiap kesulitan lewat kesabaran.",
+      "teks": [
+        "BALAS KESULITAN",
+        "DENGAN SABAR"
+      ],
+      "handle": "@nurverse"
+    }
+  ]
+}

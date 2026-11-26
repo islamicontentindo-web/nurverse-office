@@ -223,7 +223,7 @@
     {
       "pekan": "2026-W49",
       "gaya": "ilustrasi",
-      "status": "rencana",
+      "status": "menunggu_persetujuan",
       "percobaan": 0,
       "dibuat": "2026-11-25T10:16:56.983Z",
       "id": "2026-W49-U1",
@@ -237,7 +237,10 @@
           "al-baqarah:155"
         ],
         "hadis": []
-      }
+      },
+      "detik": 118,
+      "ytId": "8gL2E4Bw7Ug",
+      "judul": "Rahasia Tetap Tenang Saat Semua Rencana Berantakan"
     },
     {
       "pekan": "2026-W49",

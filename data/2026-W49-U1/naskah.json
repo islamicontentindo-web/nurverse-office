@@ -1,0 +1,321 @@
+{
+  "adegan": [
+    {
+      "jenis": "renungan",
+      "narasi": "Jangan sampai kamu menukar ketenangan hidupmu hanya demi melampiaskan amarah sesaat.",
+      "teks": [
+        "KEHILANGAN DAMAI",
+        "KARENA HAL SEPELE?"
+      ],
+      "motif": "bintang",
+      "latar": "gelap",
+      "aksi": "berdiri",
+      "sorot": "DAMAI",
+      "prop": [
+        "siluet"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Kopi tumpah atau terjebak macet sering kali langsung merusak seluruh suasana hatimu seharian.",
+      "teks": [
+        "HAL KECIL",
+        "MERUSAK SUASANA"
+      ],
+      "motif": "bintang",
+      "latar": "malam",
+      "aksi": "tunduk",
+      "sorot": "MERUSAK",
+      "prop": [
+        "batu"
+      ]
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Padahal, ketenangan hati adalah rezeki berharga yang terlalu mahal untuk ditukar amarah.",
+      "teks": [
+        "KETENANGAN HATI",
+        "TERLALU MAHAL"
+      ],
+      "motif": "bintang",
+      "latar": "lentera",
+      "aksi": "duduk",
+      "sorot": "MAHAL",
+      "prop": [
+        "pintu"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Kita begitu mudah mengeluh ketika kenyataan tidak sejalan dengan apa yang direncanakan.",
+      "teks": [
+        "MUDAH MENGELUH",
+        "SAAT KECEWA"
+      ],
+      "motif": "bintang",
+      "latar": "gelap",
+      "aksi": "berdiri",
+      "sorot": "MENGELUH",
+      "prop": [
+        "siluet"
+      ]
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Pernahkah kamu berpikir bahwa ketidaknyamanan kecil itu adalah cara mendidik jiwa kita?",
+      "teks": [
+        "MENDIDIK JIWA",
+        "LEWAT KETIDAKNYAMANAN"
+      ],
+      "motif": "bintang",
+      "latar": "fajar",
+      "aksi": "berdiri",
+      "sorot": "JIWA",
+      "prop": [
+        "rumah"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Hati sedang dilatih agar tidak mudah goyah oleh riak-riak kecil kehidupan dunia.",
+      "teks": [
+        "MELATIH HATI",
+        "AGAR TIDAK GOYAH"
+      ],
+      "motif": "bintang",
+      "latar": "cahaya",
+      "aksi": "duduk",
+      "sorot": "GOYAH"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Kenyataannya, setiap helaan napas kita memang dirancang berdampingan dengan aneka bentuk ujian.",
+      "teks": [
+        "HIDUP INI",
+        "PENUH UJIAN"
+      ],
+      "motif": "bintang",
+      "latar": "malam",
+      "aksi": "tunduk",
+      "sorot": "UJIAN"
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Rasa cemas, kekurangan rezeki, hingga kehilangan adalah jalan menuju pendewasaan iman kita.",
+      "teks": [
+        "PROSES IMAN",
+        "MENUJU DEWASA"
+      ],
+      "motif": "bintang",
+      "latar": "lentera",
+      "aksi": "duduk",
+      "sorot": "IMAN",
+      "prop": [
+        "batu"
+      ]
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Namun ada kabar gembira yang luar biasa indah bagi mereka yang memilih bertahan.",
+      "teks": [
+        "KABAR GEMBIRA",
+        "UNTUKMU"
+      ],
+      "motif": "bintang",
+      "latar": "cahaya",
+      "aksi": "berdiri",
+      "sorot": "GEMBIRA"
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Sabar bukan berarti kamu tidak boleh merasa lelah atau meneteskan air mata.",
+      "teks": [
+        "SABAR BUKAN",
+        "TANPA RASA"
+      ],
+      "motif": "bintang",
+      "latar": "gelap",
+      "aksi": "tunduk",
+      "sorot": "SABAR",
+      "prop": [
+        "siluet"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Sabar sejati adalah menahan lisanmu agar tidak melontarkan kata-kata penyesalan sia-sia.",
+      "teks": [
+        "MENAHAN LISAN",
+        "DARI KELUHAN"
+      ],
+      "motif": "bintang",
+      "latar": "malam",
+      "aksi": "duduk",
+      "sorot": "LISAN"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Saat amarah mulai membakar dadamu, berhentilah sejenak dan ingat kembali tujuan akhirmu.",
+      "teks": [
+        "BERHENTI SEJENAK",
+        "INGAT TUJUAN"
+      ],
+      "motif": "bintang",
+      "latar": "fajar",
+      "aksi": "berdiri",
+      "sorot": "TUJUAN",
+      "prop": [
+        "pintu"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Masalah kecil hari ini sama sekali tidak akan merusak ketetapan takdir terbaikmu.",
+      "teks": [
+        "TAKDIR TERBAIK",
+        "TETAP TERJAGA"
+      ],
+      "motif": "bintang",
+      "latar": "cahaya",
+      "aksi": "berdoa",
+      "sorot": "TAKDIR"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Berapa banyak pahala yang hangus hanya karena kita terburu-buru mengumbar kekesalan hati?",
+      "teks": [
+        "PAHALA HANGUS",
+        "KARENA EMOSI"
+      ],
+      "motif": "bintang",
+      "latar": "gelap",
+      "aksi": "tunduk",
+      "sorot": "PAHALA",
+      "prop": [
+        "batu"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Pandanglah setiap gangguan kecil sebagai peluang emas untuk mengumpulkan pahala tanpa batas.",
+      "teks": [
+        "PELUANG EMAS",
+        "DARI HAL KECIL"
+      ],
+      "motif": "bintang",
+      "latar": "lentera",
+      "aksi": "duduk",
+      "sorot": "PELUANG"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Hati yang lapang akan selalu menemukan ruang damai di tengah kondisi tersempit.",
+      "teks": [
+        "HATI LAPANG",
+        "SELALU DAMAI"
+      ],
+      "motif": "bintang",
+      "latar": "masjid",
+      "aksi": "sholat",
+      "sorot": "LAPANG",
+      "prop": [
+        "saf"
+      ]
+    },
+    {
+      "jenis": "poin",
+      "narasi": "Lepaskan keinginan untuk mengatur segalanya dan pasrahkan hasilnya kepada Sang Pemelihara.",
+      "teks": [
+        "PASRAHKAN HASIL",
+        "KEPADA ALLAH"
+      ],
+      "motif": "bintang",
+      "latar": "fajar",
+      "aksi": "ruku",
+      "sorot": "PASRAH"
+    },
+    {
+      "jenis": "renungan",
+      "narasi": "Ketenangan sejati akan hadir saat kamu menerima setiap ketetapan-Nya dengan dada lapang.",
+      "teks": [
+        "DAMAI SEJATI",
+        "DENGAN RIDHA"
+      ],
+      "motif": "bintang",
+      "latar": "cahaya",
+      "aksi": "sujud",
+      "sorot": "RIDHA"
+    },
+    {
+      "jenis": "penutup",
+      "narasi": "Mari kita jaga ketenangan hati hari ini dengan membalas setiap kesulitan lewat kesabaran.",
+      "teks": [
+        "BALAS KESULITAN",
+        "DENGAN SABAR"
+      ],
+      "motif": "bintang",
+      "latar": "fajar",
+      "aksi": "berdoa",
+      "sorot": "SABAR",
+      "prop": [
+        "rumah"
+      ]
+    }
+  ],
+  "hook": "Jangan sampai kamu menukar ketenangan hidupmu hanya demi melampiaskan amarah sesaat.",
+  "label": "SAAT GELISAH",
+  "judul": "Rahasia Tetap Tenang Saat Semua Rencana Berantakan",
+  "thumb": "RAHASIA HATI TENANG",
+  "deskripsi": "Sering kali kita kehilangan rasa damai hanya karena masalah-masalah kecil yang meleset dari rencana harian. Melalui Al-Qur'an surah Al-Baqarah ayat 155, kita diingatkan bahwa ujian hidup adalah bagian tak terpisahkan untuk mendewasakan iman. Mari belajar menata kembali hati agar tetap tenang dan menemukan kabar gembira di balik setiap kesabaran.",
+  "tag": [
+    "sabar dalam islam",
+    "cara hati tenang",
+    "ujian hidup sehari-hari",
+    "motivasi islami",
+    "surah al baqarah 155",
+    "menahan amarah",
+    "ketenangan jiwa",
+    "tausiyah singkat",
+    "nasihat kehidupan",
+    "nurverse"
+  ],
+  "kueri": [
+    "cara melatih kesabaran menghadapi masalah kecil",
+    "kenapa hati mudah gelisah menurut islam",
+    "arti al baqarah 155 tentang ujian sabar"
+  ],
+  "masalah_paket": [],
+  "hook_info": {
+    "teks": "Jangan sampai kamu menukar ketenangan hidupmu hanya demi melampiaskan amarah sesaat.",
+    "skor": 50,
+    "panel": {
+      "spesifik": 34,
+      "menyapa": 76,
+      "taruhan": 48,
+      "penasaran": 58,
+      "ringkas": 90
+    },
+    "semua": [
+      [
+        "Jangan sampai kamu menukar ketenangan hidupmu hanya demi melampiaskan amarah sesaat.",
+        50
+      ],
+      [
+        "Kamu rela kehilangan seluruh kedamaian harimu hanya karena satu hal sepele yang meleset?",
+        43
+      ],
+      [
+        "Seberapa sering kamu kehilangan damai di hati hanya karena rencana kecil berantakan?",
+        43
+      ],
+      [
+        "Sadarkah kamu, kekesalan kecil hari ini bisa merampas pahala besar yang menantimu?",
+        40
+      ],
+      [
+        "Kamu mempertaruhkan ketenangan hatimu setiap kali membiarkan masalah kecil merusak seharian penuh.",
+        40
+      ]
+    ]
+  }
+}

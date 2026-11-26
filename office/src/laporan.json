@@ -18,11 +18,11 @@
     ]
   },
   "laila": {
-    "ringkasan": "10 naskah selesai.",
+    "ringkasan": "11 naskah selesai.",
     "angka": [
       {
         "label": "Panggilan LLM hari ini",
-        "nilai": "0/30"
+        "nilai": "2/30"
       }
     ]
   },
@@ -30,26 +30,29 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "2 terjadwal, 8 tayang.",
+    "ringkasan": "1 video menunggu persetujuanmu.",
+    "menunggu": [
+      "Setujui: Rahasia Tetap Tenang Saat Semua Rencana Berantakan"
+    ],
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "0 video"
+        "nilai": "1 video"
       }
     ]
   },
   "rafi": {
-    "ringkasan": "10 storyboard dibuat sesuai standar NURVERSE."
+    "ringkasan": "11 storyboard dibuat sesuai standar NURVERSE."
   },
   "salma": {
     "ringkasan": "Suara: id-ID-ArdiNeural. Ayat tidak dibacakan suara sintetis, hanya terjemahannya."
   },
   "dika": {
-    "ringkasan": "10 video sudah dirender.",
+    "ringkasan": "11 video sudah dirender.",
     "angka": [
       {
         "label": "Total render",
-        "nilai": "9 menit"
+        "nilai": "11 menit"
       }
     ]
   },
