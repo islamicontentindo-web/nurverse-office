@@ -30,14 +30,11 @@
     "ringkasan": "Semua dalil yang tayang berasal dari sumber terverifikasi."
   },
   "nadia": {
-    "ringkasan": "1 video menunggu persetujuanmu.",
-    "menunggu": [
-      "Setujui: Rahasia Tetap Tenang Saat Semua Rencana Berantakan"
-    ],
+    "ringkasan": "3 terjadwal, 8 tayang.",
     "angka": [
       {
         "label": "Menunggu",
-        "nilai": "1 video"
+        "nilai": "0 video"
       }
     ]
   },
