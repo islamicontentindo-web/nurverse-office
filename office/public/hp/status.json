@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-26T19:04:33.496Z",
+  "diperbarui": "2026-11-26T22:01:32.756Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -7,7 +7,7 @@
     "batas": 30
   },
   "peringatan": [
-    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout"
+    "naskah: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
   ],
   "antrean": [
     {
@@ -139,6 +139,30 @@
   ],
   "log": [
     {
+      "t": "2026-11-26T22:01:32.755Z",
+      "agen": "fikri",
+      "teks": "statistik 8 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T22:01:32.635Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: The operation was aborted due to timeout | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-26T21:59:30.068Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-26T19:04:33.497Z",
+      "agen": "tick",
+      "teks": "selesai dalam 135 detik",
+      "tingkat": "info"
+    },
+    {
       "t": "2026-11-26T19:04:33.494Z",
       "agen": "fikri",
       "teks": "statistik 8 video diperbarui",
@@ -262,30 +286,6 @@
       "t": "2026-11-26T04:11:14.509Z",
       "agen": "tick",
       "teks": "selesai dalam 386 detik",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T04:11:14.507Z",
-      "agen": "fikri",
-      "teks": "statistik 8 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T04:11:14.384Z",
-      "agen": "nadia",
-      "teks": "2026-W49-U1 terunggah (menunggu_persetujuan), tayang 2026-12-04T09:00:00.000Z",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T04:11:14.383Z",
-      "agen": "nadia",
-      "teks": "thumbnail gagal: thumbnail 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat (akun harus terverifikasi telepon)",
-      "tingkat": "peringatan"
-    },
-    {
-      "t": "2026-11-26T04:08:30.990Z",
-      "agen": "dika",
-      "teks": "render 2026-W49-U1 (19 adegan)…",
       "tingkat": "info"
     }
   ]
