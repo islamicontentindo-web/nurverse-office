@@ -1,5 +1,5 @@
 {
-  "diperbarui": "2026-11-27T04:11:38.733Z",
+  "diperbarui": "2026-11-27T07:25:51.122Z",
   "mode": "review",
   "repo": "islamicontentindo-web/nurverse-office",
   "penggunaan": {
@@ -7,7 +7,7 @@
     "batas": 30
   },
   "peringatan": [
-    "naskah: semua penyedia LLM gagal: The operation was aborted due to timeout | The operation was aborted due to timeout"
+    "naskah: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n"
   ],
   "antrean": [
     {
@@ -139,6 +139,30 @@
   ],
   "log": [
     {
+      "t": "2026-11-27T07:25:51.121Z",
+      "agen": "fikri",
+      "teks": "statistik 8 video diperbarui",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-27T07:25:50.961Z",
+      "agen": "laila",
+      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+      "tingkat": "galat"
+    },
+    {
+      "t": "2026-11-27T07:23:34.001Z",
+      "agen": "tick",
+      "teks": "denyut dimulai",
+      "tingkat": "info"
+    },
+    {
+      "t": "2026-11-27T04:11:38.734Z",
+      "agen": "tick",
+      "teks": "selesai dalam 240 detik",
+      "tingkat": "info"
+    },
+    {
       "t": "2026-11-27T04:11:38.732Z",
       "agen": "fikri",
       "teks": "statistik 8 video diperbarui",
@@ -262,30 +286,6 @@
       "t": "2026-11-26T13:27:14.001Z",
       "agen": "fikri",
       "teks": "statistik 8 video diperbarui",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T13:27:13.868Z",
-      "agen": "laila",
-      "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | The operation was aborted due to timeout",
-      "tingkat": "galat"
-    },
-    {
-      "t": "2026-11-26T13:25:04.951Z",
-      "agen": "tick",
-      "teks": "denyut dimulai",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T11:50:54.630Z",
-      "agen": "nadia",
-      "teks": "2026-W49-U1: setuju -> terjadwal (tayang 2026-12-04T09:00:00.000Z)",
-      "tingkat": "info"
-    },
-    {
-      "t": "2026-11-26T10:15:39.371Z",
-      "agen": "tick",
-      "teks": "selesai dalam 19 detik",
       "tingkat": "info"
     }
   ]
