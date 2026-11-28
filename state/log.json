@@ -1,29 +1,5 @@
 [
   {
-    "t": "2026-11-26T04:07:00.766Z",
-    "agen": "laila",
-    "teks": "menulis gagal: semua penyedia LLM gagal: Expected double-quoted property name in JSON at position 6742 | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
-    "tingkat": "galat"
-  },
-  {
-    "t": "2026-11-26T04:07:40.463Z",
-    "agen": "hasan",
-    "teks": "2026-W49-U1: dalil dibuang (tak terverifikasi): al-baqarah:155",
-    "tingkat": "peringatan"
-  },
-  {
-    "t": "2026-11-26T04:08:30.990Z",
-    "agen": "dika",
-    "teks": "render 2026-W49-U1 (19 adegan)…",
-    "tingkat": "info"
-  },
-  {
-    "t": "2026-11-26T04:11:14.383Z",
-    "agen": "nadia",
-    "teks": "thumbnail gagal: thumbnail 403: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The authenticated user doesn't have permissions to upload and set custom video thumbnails.\",\n    \"errors\": [\n      {\n        \"message\": \"The authenticat (akun harus terverifikasi telepon)",
-    "tingkat": "peringatan"
-  },
-  {
     "t": "2026-11-26T04:11:14.384Z",
     "agen": "nadia",
     "teks": "2026-W49-U1 terunggah (menunggu_persetujuan), tayang 2026-12-04T09:00:00.000Z",
@@ -477,6 +453,30 @@
     "t": "2026-11-28T09:59:27.214Z",
     "agen": "tick",
     "teks": "selesai dalam 194 detik",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-28T13:01:57.743Z",
+    "agen": "tick",
+    "teks": "denyut dimulai",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-28T13:02:46.708Z",
+    "agen": "laila",
+    "teks": "menulis gagal: semua penyedia LLM gagal: gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n | gemini 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+    "tingkat": "galat"
+  },
+  {
+    "t": "2026-11-28T13:02:46.855Z",
+    "agen": "fikri",
+    "teks": "statistik 10 video diperbarui",
+    "tingkat": "info"
+  },
+  {
+    "t": "2026-11-28T13:02:46.857Z",
+    "agen": "tick",
+    "teks": "selesai dalam 49 detik",
     "tingkat": "info"
   }
 ]
